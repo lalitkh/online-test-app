@@ -1,0 +1,726 @@
+{
+  "title": "KISA Set-3",
+  "duration": 1800,
+  "questions": [
+    {
+      "id": 101,
+      "topic": "Current Affairs",
+      "question": "Which country was recently hit by 'Cyclone Ilsa'?",
+      "options": [
+        "USA",
+        "Australia",
+        "Russia",
+        "Germany"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 102,
+      "topic": "Current Affairs",
+      "question": "The 51st G7 Summit was held on June 15–17, 2025 in which country?",
+      "options": [
+        "UK",
+        "Canada",
+        "Italy",
+        "Japan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 103,
+      "topic": "Current Affairs",
+      "question": "Which is the first bank in India to issue an electronic bank guarantee (e-BG)?",
+      "options": [
+        "State Bank of India",
+        "ICICI Bank",
+        "HDFC Bank",
+        "Axis Bank"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 104,
+      "topic": "Current Affairs",
+      "question": "Which institution regulates the 'KYC Registration Agencies (KRA)'?",
+      "options": [
+        "SEBI",
+        "RBI",
+        "IRDAI",
+        "PFRDA"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 105,
+      "topic": "Current Affairs",
+      "question": "Which of the following is an example of a short-range air defense system?",
+      "options": [
+        "Patriot",
+        "THAAD",
+        "Iron Dome",
+        "Aegis Combat System"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 106,
+      "topic": "Current Affairs",
+      "question": "When did Indian astronaut Shubhanshu Shukla returns to Earth after spending 18 days in International Space Station (ISS)?",
+      "options": [
+        "August 10, 2025",
+        "July 12, 2025",
+        "March 10, 2025",
+        "April 15, 2025"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 107,
+      "topic": "Current Affairs",
+      "question": "Which city hosted the NATO Summit on June 24–25, 2025?",
+      "options": [
+        "Berlin",
+        "Paris",
+        "The Hague",
+        "Geneva"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 108,
+      "topic": "Current Affairs",
+      "question": "Which institution released the report titled 'Preventing injuries and violence: an overview'?",
+      "options": [
+        "UNICEF",
+        "WHO",
+        "UNESCO",
+        "UN Women"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 109,
+      "topic": "Current Affairs",
+      "question": "'Foot & Mouth Disease' is a major disease which affects which species?",
+      "options": [
+        "Plants",
+        "Livestock",
+        "Poultry",
+        "Insects"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 110,
+      "topic": "Current Affairs",
+      "question": "Which party won a majority in the February 5, 2025 Delhi assembly elections?",
+      "options": [
+        "AAP",
+        "INC",
+        "BJP",
+        "NOTA"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 111,
+      "topic": "Current Affairs",
+      "question": "Who has been named as the national ambassador for TB Mukt Bharat Campaign?",
+      "options": [
+        "Virat Kohli",
+        "Deepika Padukone",
+        "PV Sindhu",
+        "Dr. Deepa Malik"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 112,
+      "topic": "Current Affairs",
+      "question": "Who is the only living Indian to win the Grammy Award three?",
+      "options": [
+        "A.R. Rahman",
+        "Ricky Kej",
+        "Resul Pookutty",
+        "Babbu Mann"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 113,
+      "topic": "Current Affairs",
+      "question": "Which state has created a memorial for rhinos using ashes named as 'Abode of the Unicorns'?",
+      "options": [
+        "West Bengal",
+        "Assam",
+        "Odisha",
+        "Arunachal Pradesh"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 114,
+      "topic": "Current Affairs",
+      "question": "The expanded FIFA Club World Cup started on June 14, 2025 in which country?",
+      "options": [
+        "Qatar",
+        "Brazil",
+        "USA",
+        "Spain"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 115,
+      "topic": "Current Affairs",
+      "question": "In mid-June 2025, Israel launched 'Operation Rising Lion' targeting which country",
+      "options": [
+        "Syria",
+        "Iran",
+        "Lebanon",
+        "Iraq"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 116,
+      "topic": "Current Affairs",
+      "question": "Which country is the host of the Commonwealth Games 2026?",
+      "options": [
+        "India",
+        "Sri Lanka",
+        "Glasgow, Scotland",
+        "UAE"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 117,
+      "topic": "Current Affairs",
+      "question": "Which company has developed a new dialogue-based chatbot named 'ChatGPT'?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "OpenAI",
+        "Meta"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 118,
+      "topic": "Current Affairs",
+      "question": "Which organization released the 2024–25 Global Education Monitoring Report?",
+      "options": [
+        "UNICEF",
+        "WHO",
+        "UNESCO",
+        "World Bank"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 119,
+      "topic": "Current Affairs",
+      "question": "As of June 2025, the Reserve Bank of India revised its repo rate to what level?",
+      "options": [
+        "6.00%",
+        "5.75%",
+        "5.50%",
+        "5.25%"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 120,
+      "topic": "Current Affairs",
+      "question": "'Swadesh Darshan' scheme is an initiative of which Union Ministry?",
+      "options": [
+        "Union Ministry",
+        "Ministry of Tourism",
+        "Ministry of External Affairs",
+        "Ministry of Communications"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 121,
+      "topic": "Mathematics",
+      "question": "The predecessor of L in Roman numerals is ______.",
+      "options": [
+        "XL",
+        "LXI",
+        "IL",
+        "XLIX"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 122,
+      "topic": "Mathematics",
+      "question": "When 9000 is added to a certain number the sum will be 12998. The number is ______.",
+      "options": [
+        "5998",
+        "4998",
+        "3998",
+        "6998"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 123,
+      "topic": "Mathematics",
+      "question": "A blue whale weighs 1,36,078 kg and it has gained 45,359 kg more weight. What is the new weight of the blue whale?",
+      "options": [
+        "1,08,862 kg",
+        "1,99,862 kg",
+        "1,81,437 kg",
+        "1,98,862 kg"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 124,
+      "topic": "Mathematics",
+      "question": "HCF of 6 and 36 is ______.",
+      "options": [
+        "6",
+        "36",
+        "216",
+        "3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 125,
+      "topic": "Mathematics",
+      "question": "The difference of the place value of 7 in 6277 is ______.",
+      "options": [
+        "77",
+        "7",
+        "63",
+        "49"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 126,
+      "topic": "Mathematics",
+      "question": "The number just more than 4306 which is divisible by 5 is ______.",
+      "options": [
+        "4305",
+        "4310",
+        "4315",
+        "4311"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 127,
+      "topic": "Mathematics",
+      "question": "What is the product of all odd numbers between 6 and 10?",
+      "options": [
+        "36",
+        "63",
+        "72",
+        "80"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 128,
+      "topic": "Mathematics",
+      "question": "The reciprocal of 5/12 is ______.",
+      "options": [
+        "5/12",
+        "12/5",
+        "22/3",
+        "23/5"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 129,
+      "topic": "Mathematics",
+      "question": "Shakti has a container weighing 4 kg 220 g. What is the weight of 4 such containers?",
+      "options": [
+        "16 kg 220 g",
+        "16 kg 840 g",
+        "16 kg 880 g",
+        "16 kg 820 g"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 130,
+      "topic": "Mathematics",
+      "question": "Veena wants to convert 6000 mg into kg so 6000 mg = ______ kg.",
+      "options": [
+        "6 kg",
+        "0.006 kg",
+        "0.6 kg",
+        "0.06 kg"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 131,
+      "topic": "Mathematics",
+      "question": "Which of the following is a leap year?",
+      "options": [
+        "1983",
+        "2024",
+        "1994",
+        "1906"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 132,
+      "topic": "Mathematics",
+      "question": "Rahul, a researcher spent 98 days to study the Jantar Mantar Delhi. How many weeks did he spend there?",
+      "options": [
+        "13 Weeks",
+        "14 Weeks",
+        "15 Weeks",
+        "12 Weeks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 133,
+      "topic": "Mathematics",
+      "question": "A line which cuts a pair of parallel lines is called ______.",
+      "options": [
+        "Tangent",
+        "Transversal",
+        "Chord",
+        "Intersector"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 134,
+      "topic": "Mathematics",
+      "question": "An angle whose value is ______ is called complete angle.",
+      "options": [
+        "180°",
+        "360°",
+        "240°",
+        "None of these"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 135,
+      "topic": "Mathematics",
+      "question": "How many ₹5 coins will you get for a ₹50 note?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 136,
+      "topic": "Mathematics",
+      "question": "In Multiplication, the result we get is called ______.",
+      "options": [
+        "Divisor",
+        "Addition",
+        "Product",
+        "Multiply"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 137,
+      "topic": "Mathematics",
+      "question": "How many lakhs make a million?",
+      "options": [
+        "100",
+        "1000",
+        "10",
+        "10000"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 138,
+      "topic": "Mathematics",
+      "question": "1 Century = ______ years.",
+      "options": [
+        "50",
+        "100",
+        "75",
+        "25"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 139,
+      "topic": "Mathematics",
+      "question": "4 hrs is equal to ______ minutes.",
+      "options": [
+        "180 minutes",
+        "240 minutes",
+        "120 minutes",
+        "110 minutes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 140,
+      "topic": "Mathematics",
+      "question": "The concept of Zero was introduced by ______.",
+      "options": [
+        "Egyptians",
+        "Greeks",
+        "Indians",
+        "Romans"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 141,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "John had 12 footballs. He gave 4 of them to Rohan. Which mathematical expression could be used to find the number of footballs that were left with John?",
+      "options": [
+        "(12 ÷ 4)",
+        "(12 × 4)",
+        "(12 - 4)",
+        "(12 + 4)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 142,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Today is Monday. After 61 days, it will be ______.",
+      "options": [
+        "Tuesday",
+        "Monday",
+        "Sunday",
+        "Saturday"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 143,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Choose which pair of number comes next? 10, 20, 25, 35, 40, 50, 55,.......",
+      "options": [
+        "70 65",
+        "60 70",
+        "60 75",
+        "65 70"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 144,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Which arrow comes next?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 145,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Which one of the given responses would be a meaningful order of the following: 1. Sentence 2. Word 3. Chapter 4. Phrase 5. Paragraph",
+      "options": [
+        "4,3,1,2,5",
+        "2,3,5,4,1",
+        "3,5,1,4,2",
+        "1,3,2,4,5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 146,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Which of the following diagrams indicates the best relation between Furniture, Chairs and Tables?",
+      "options": [
+        "(a)",
+        "(b)",
+        "(c)",
+        "(d)"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 147,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Microphone : Loud :: Microscope : ?",
+      "options": [
+        "Elongate",
+        "Investigate",
+        "Magnify",
+        "Examine"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 148,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Choose the picture that would go in the empty box so that the two bottom pictures are related in the same way as the top two are related.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 149,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Identify the figure that completes the pattern.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 150,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 151,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Find the odd man out : 2, 5, 10, 50, 500, 5000.",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "5000"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 152,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Choose the figure which is different from the rest.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 153,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "(112 x 5^4) = ?",
+      "options": [
+        "67000",
+        "70000",
+        "76500",
+        "77200"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 154,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Look at this series: 36, 34, 30, 28, 24, .... What number should come next?",
+      "options": [
+        "20",
+        "22",
+        "23",
+        "26"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 155,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "The average of first 10 even numbers is?",
+      "options": [
+        "18",
+        "22",
+        "9",
+        "11"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 156,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Guess one word from 2 Emojis.  + ",
+      "options": [
+        "Star + Fish = Starfish",
+        "Fish + Star = Fishstar",
+        "Both a and b",
+        "Only b"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 157,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Which number completes the puzzle?",
+      "options": [
+        "23",
+        "9",
+        "19",
+        "31"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 158,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Mara runs faster than Gail. Lily runs faster than Mara. Gail runs faster than Lily. If the first two statements are true, the third statement is ______.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "Uncertain",
+        "Both a and c"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 159,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Choose the word that is a necessary part of the underlined word **School**.",
+      "options": [
+        "Student",
+        "Report Card",
+        "Learning",
+        "All of these"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 160,
+      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
+      "question": "Which number replaces question mark?",
+      "options": [
+        "7",
+        "9",
+        "6",
+        "114"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

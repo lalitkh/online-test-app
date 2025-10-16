@@ -1,0 +1,1106 @@
+{
+    "title": "DCL IQ Math",
+    "duration": 3600,
+    "questions": [
+        {
+            "id": 1,
+            "question": "One more than the smallest four-digit number is —?",
+            "options": [
+                "9999",
+                "1000",
+                "1001",
+                "10000"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 2,
+            "question": "$$\\frac{9}{13}-\\frac{2}{13}=\\frac{?}{?}$$",
+            "options": [
+                "$$\\frac{11}{13}$$",
+                "$$\\frac{7}{13}$$",
+                "$$\\frac{7}{0}$$",
+                "$$\\frac{7}{26}$$"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 3,
+            "question": "Successor of 38999 is —?",
+            "options": [
+                "38100",
+                "38998",
+                "389910",
+                "39000"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 4,
+            "question": "How many minutes are there in $$3 \\frac{1}{2}$$ hours?",
+            "options": [
+                "240",
+                "2100",
+                "245",
+                "210"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 5,
+            "question": "Rs $$90.75 - \\dots = Rs 0.25$$",
+            "options": [
+                "90.75",
+                "155",
+                "7580",
+                "975"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "question": "$$\\frac{3}{10} + \\frac{1}{10} + \\frac{5}{10} = ?$$",
+            "options": [
+                "$$\\frac{3}{105}$$",
+                "$$\\frac{9}{10}$$",
+                "$$\\frac{3}{10}$$",
+                "$$\\frac{3805}{5}$$"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 7,
+            "question": "$$18:16$$ hours $=$ — (12 hours clock time)",
+            "options": [
+                "$$16 \\frac{1}{2}$$ pm",
+                "8:16 pm",
+                "2:16 pm",
+                "4:16 pm"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 8,
+            "question": "$$73000$$ meter $=$ — kilometers",
+            "options": [
+                "730000",
+                "73",
+                "930",
+                "0.3"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 9,
+            "question": "The length of the total boundary of a circle is called as",
+            "options": [
+                "Diameter",
+                "Radius",
+                "Circumference",
+                "Chord"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 10,
+            "question": "40 passengers can travel in 9 buses. How many passengers can travel in 6 such buses?",
+            "options": [
+                "45",
+                "55",
+                "95",
+                "40"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 11,
+            "question": "Smriti bought a bag for Rs $$450.75$$. He gave five hundred rupees to the shopkeeper. How much money should Smriti get back?",
+            "options": [
+                "Rs 50",
+                "Rs 49.75",
+                "Rs 25",
+                "Rs 49.25"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 12,
+            "question": "What is the sum of the largest 4-digit number and the smallest 3-digit number?",
+            "options": [
+                "10999",
+                "10099",
+                "10099",
+                "100099"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 13,
+            "question": "The weight of 1 math book is $$250 \\text{g}$$. Find the weight of 50 such books?",
+            "options": [
+                "$$1 \\text{kg}$$",
+                "$$1250 \\text{kg}$$",
+                "$$12250 \\text{kg}$$",
+                "$$12500 \\text{g}$$"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 14,
+            "question": "Anil bought $$2 \\frac{1}{4}$$ meters of cloth from one shop and $$1 \\frac{1}{2}$$ meters of cloth from another shop. What length of cloth did she buy in all?",
+            "options": [
+                "$$3 \\frac{1}{4} \\text{ mtrs.}$$",
+                "$$4 \\text{ mtrs.}$$",
+                "$$3 \\frac{3}{4} \\text{ mtrs.}$$",
+                "$$4 \\frac{1}{4} \\text{ mtrs.}$$"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 15,
+            "question": "Find the successor of 'L', where 'L' is a natural number and represents greatest number of 5-digits.",
+            "options": [
+                "9720",
+                "99999",
+                "10000",
+                "100000"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 16,
+            "question": "$$4 \\text{ hours } 35 \\text{ minutes} = \\dots \\text{ minutes}?$$",
+            "options": [
+                "435",
+                "275",
+                "354",
+                "390"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 17,
+            "question": "Identify the value of Roman symbol 'L' from the following chains.",
+            "options": [
+                "75",
+                "25",
+                "100",
+                "50"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 18,
+            "question": "Subtract $$\\frac{8}{9}$$ of $$\\frac{8}{15}$$ is —?",
+            "options": [
+                "$$\\frac{45}{9}$$",
+                "$$\\frac{8}{14}$$",
+                "$$\\frac{14}{9}$$",
+                "$$\\frac{70}{9}$$"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 19,
+            "question": "Every number is a factor of — itself.",
+            "options": [
+                "2",
+                "0",
+                "1",
+                "100"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 20,
+            "question": "What number should be added to 750 so that the sum becomes twice of 850?",
+            "options": [
+                "750",
+                "950",
+                "195",
+                "1300"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 21,
+            "question": "$$\\frac{90+4}{100+100}=?$$",
+            "options": [
+                "9.04",
+                "1.904",
+                "90.4",
+                "904.00"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 22,
+            "question": "One side of a square tile measures $$7 \\text{ m}$$. Find the area.",
+            "options": [
+                "$$170 \\text{ m}^2$$",
+                "$$240 \\text{ m}^2$$",
+                "$$44 \\text{ m}^2$$",
+                "$$49 \\text{ m}^2$$"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 23,
+            "question": "$$Rs 60.50 + Rs 30.30 - Rs 27.80 = \\dots ?$$",
+            "options": [
+                "Rs 126.70",
+                "Rs 187.80",
+                "Rs 67.20",
+                "Rs 100.60"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 24,
+            "question": "$$10:00 \\text{ am to } 5:00 \\text{ pm} = \\dots \\text{ hours}?$$",
+            "options": [
+                "435",
+                "6:40",
+                "7",
+                "8"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 25,
+            "question": "— is the longest chord of a circle.",
+            "options": [
+                "Radius",
+                "Circumference",
+                "Centre",
+                "Diameter"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 26,
+            "question": "$$1+\\frac{3}{7} + \\frac{2}{7} = \\dots ?$$",
+            "options": [
+                "$$\\frac{4}{14}$$",
+                "$$\\frac{7}{7}$$",
+                "$$\\frac{14}{7}$$",
+                "$$\\frac{21}{7}$$"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 27,
+            "question": "If 11 kg of sweets is distributed among 2 persons, what type of fraction you will get in the last?",
+            "options": [
+                "Improper fraction",
+                "Proper fraction",
+                "Unit fraction",
+                "None of these"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 28,
+            "question": "Lara bought a second-hand car for Rs 95,725 and she overhead expenses was Rs 50,725. She sold it for Rs 10,87,725. What was her gain or loss?",
+            "options": [
+                "Rs 15 loss",
+                "Rs 10 loss",
+                "Rs 15 loss",
+                "None of these"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 29,
+            "question": "Find the smallest number which can be exactly divided by 72 and 84?",
+            "options": [
+                "12",
+                "84",
+                "304",
+                "72"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 30,
+            "question": "The length of a classroom is $$12 \\text{ m}$$ and its width is $$10 \\text{ m}$$. Find the area of the classroom?",
+            "options": [
+                "$$44 \\text{ m}^2$$",
+                "$$30 \\text{ m}^2$$",
+                "$$22 \\text{ m}^2$$",
+                "$$120 \\text{ m}^2$$"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 31,
+            "question": "LCM of 6 and 5 is —?",
+            "options": [
+                "15",
+                "1",
+                "8",
+                "2"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 32,
+            "question": "Ranu can make 65 paper bags in one day, how many paper bags can he make in one year?",
+            "options": [
+                "440",
+                "23730",
+                "23725",
+                "69725"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 33,
+            "question": "Which one is the largest digit number by 3?",
+            "options": [
+                "6666",
+                "3333",
+                "1111",
+                "2222"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "question": "$$60 \\text{ m} + 15 \\text{ cm} = \\dots \\text{ cm}?$$",
+            "options": [
+                "605",
+                "60015",
+                "6015",
+                "6000"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 35,
+            "question": "Fifteen thousand and eight, Write it in figures",
+            "options": [
+                "50,008",
+                "158",
+                "5008",
+                "15,008"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 36,
+            "question": "$$16 \\times 5000 = \\dots ?$$",
+            "options": [
+                "80,000",
+                "8,000",
+                "800,000",
+                "50,000"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 37,
+            "question": "— has two end points",
+            "options": [
+                "Line segment",
+                "Line",
+                "Ray",
+                "Point"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 38,
+            "question": "In a square, sum of two angles is a — angle.",
+            "options": [
+                "Right angle",
+                "Acute angle",
+                "Straight angle",
+                "None of these"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 39,
+            "question": "Complete the series 2, 9, 18, 29, —, 57",
+            "options": [
+                "35",
+                "44",
+                "32",
+                "50"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 40,
+            "question": "The sum of two numbers is 6,50,000. If one of them is 2,86,500. Find the other number?",
+            "options": [
+                "3,20,000",
+                "3,25,900",
+                "3,23,500",
+                "3,25,000"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 41,
+            "question": "$$7 \\text{ days and } 2 \\text{ hours} = \\dots \\text{ hours}?$$",
+            "options": [
+                "50",
+                "48",
+                "24",
+                "30"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 42,
+            "question": "If $$(160 \\times 6)$$ and $$(40 \\times 24)$$ then $$(160 \\times 6) = (40 \\times 24)?$$",
+            "options": [
+                "386",
+                "374",
+                "543",
+                "345"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 43,
+            "question": "A book has 84 pages. Riya reads 29 pages everyday. In how many days will she finish the book?",
+            "options": [
+                "11",
+                "9",
+                "12",
+                "15"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 44,
+            "question": "$$(0.665 \\times 9) + (3 \\times 6.65) - (7 \\times 6) = \\dots ?$$",
+            "options": [
+                "3955",
+                "42",
+                "6",
+                "7"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "question": "Reduce $$\\frac{16}{64}$$ into simplest form.",
+            "options": [
+                "$$\\frac{1}{8}$$",
+                "$$\\frac{4}{64}$$",
+                "$$\\frac{1}{4}$$",
+                "$$\\frac{2}{4}$$"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 46,
+            "question": "Cost of $$100 \\text{g}$$ rice is Rs $$0.520$$. What is the cost of $$1 \\text{kg}$$ rice?",
+            "options": [
+                "0.52",
+                "0.520",
+                "0.252",
+                "252"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 47,
+            "question": "What will be the time, 1 hr. 20 mins after 9 am.",
+            "options": [
+                "10 am",
+                "1.30 pm",
+                "5.10 am",
+                "1.45 pm"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 48,
+            "question": "Three boxes of oranges together weight $$9 \\text{ kg } 750 \\text{g}$$. Find the weight of each box?",
+            "options": [
+                "$$3 \\text{ kg } 250 \\text{g}$$",
+                "$$3 \\text{ kg } 750 \\text{g}$$",
+                "$$3 \\text{ kg } 50 \\text{g}$$",
+                "$$3 \\text{ kg } 125 \\text{g}$$"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 49,
+            "question": "One hundred thousand is also called?",
+            "options": [
+                "Thousand",
+                "Lakh",
+                "Million",
+                "Crore"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 50,
+            "question": "Which of the following is equivalent to $$\\frac{3}{5} \\times \\frac{2}{3}$$?",
+            "options": [
+                "$$\\frac{1}{4}$$",
+                "$$\\frac{1}{8}$$",
+                "$$\\frac{2}{5}$$",
+                "$$\\frac{3}{5}$$"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 51,
+            "question": "Which of the following is a prime number?",
+            "options": [
+                "51",
+                "31",
+                "61",
+                "21"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 52,
+            "question": "The product of two numbers is 4956. If one of them is 7. Find the other?",
+            "options": [
+                "708",
+                "705",
+                "706",
+                "720"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 53,
+            "question": "A cuboid has — faces?",
+            "options": [
+                "12",
+                "8",
+                "6",
+                "4"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 54,
+            "question": "How many lines of symmetry does a regular hexagon have?",
+            "options": [
+                "3",
+                "7",
+                "6",
+                "9"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 55,
+            "question": "Which is the only prime number that is even?",
+            "options": [
+                "4",
+                "8",
+                "2",
+                "6"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 56,
+            "question": "A train travels $$5 \\text{ km}$$ in 1 hour. How far will it go in 3 hours and 20 minutes?",
+            "options": [
+                "$$240 \\text{ km}$$",
+                "$$500 \\text{ km}$$",
+                "$$230 \\text{ km}$$",
+                "$$330 \\text{ km}$$"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 57,
+            "question": "A pen costs Rs 13. How many pens can be bought for Rs 91?",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 58,
+            "question": "What comes next in the pattern 2, 5, 11, 17, 26, —?",
+            "options": [
+                "37",
+                "33",
+                "38",
+                "29"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 59,
+            "question": "One kilogram of rice costs Rs 72. What is the cost of 500 grams of rice?",
+            "options": [
+                "Rs 31",
+                "Rs 45",
+                "Rs 38",
+                "Rs 36"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 60,
+            "question": "Which one is next 5677, 5607, 5607, —?",
+            "options": [
+                "5777",
+                "5607",
+                "5707",
+                "5907"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 61,
+            "question": "Which one is a factor of every number?",
+            "options": [
+                "3",
+                "1",
+                "9",
+                "10"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 62,
+            "question": "What is the standard unit for measuring capacity?",
+            "options": [
+                "Liter",
+                "Gram",
+                "Kilogram",
+                "Mass"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 63,
+            "question": "Which one of the following is the Roman symbol for 500?",
+            "options": [
+                "M",
+                "E",
+                "D",
+                "X"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 64,
+            "question": "A ray has — and point?",
+            "options": [
+                "2",
+                "1",
+                "3",
+                "4"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 65,
+            "question": "Convert 2 hours 30 minutes into minutes?",
+            "options": [
+                "110 minutes",
+                "40 minutes",
+                "140 minutes",
+                "80 minutes"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 66,
+            "question": "If 8 bags of sugar costs Rs 64.40. Find the cost of 16 bags?",
+            "options": [
+                "Rs 98.525",
+                "Rs 97.552",
+                "Rs 92.535",
+                "Rs 92.552"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 67,
+            "question": "If (Quotient = 45, Divisor = 12 and the Remainder = 10), then find the dividend.",
+            "options": [
+                "160",
+                "540",
+                "540",
+                "550"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 68,
+            "question": "Raman is standing in a row. He is 7th from the front and 13th from the back, how many people are there in the row?",
+            "options": [
+                "19",
+                "13",
+                "21",
+                "18"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 69,
+            "question": "Which is greater, $$\\frac{3}{4}$$ or $$0.7$$?",
+            "options": [
+                "$$\\frac{3}{4}$$",
+                "$$0.7$$",
+                "Both are equal",
+                "None of these"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 70,
+            "question": "Write the decimal numeral is $$\\frac{5}{10} + \\frac{6}{100} + \\frac{8}{1000}$$",
+            "options": [
+                "5.680",
+                "5.68",
+                "5.68",
+                "5.060"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 71,
+            "question": "LCM of 6 and 12 is —?",
+            "options": [
+                "6",
+                "12",
+                "2",
+                "1"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 72,
+            "question": "$$\\frac{5}{12} = \\frac{12}{?}$$",
+            "options": [
+                "5",
+                "$$\\frac{12}{5}$$",
+                "6",
+                "3"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 73,
+            "question": "Roman Numeral of 20 is —?",
+            "options": [
+                "XX",
+                "XIX",
+                "XXIX",
+                "XXX"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 74,
+            "question": "The greatest 4-digit number using 1, 0, 5, 8 is —?",
+            "options": [
+                "1058",
+                "86510",
+                "8650",
+                "8051"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 75,
+            "question": "$$250 \\text{g} + 5 \\text{kg} = \\dots \\text{ grams}?$$",
+            "options": [
+                "$$2500 \\text{g}$$",
+                "$$255 \\text{g}$$",
+                "$$2550 \\text{g}$$",
+                "$$2505 \\text{g}$$"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 76,
+            "question": "Which one is a mixed fraction?",
+            "options": [
+                "$$\\frac{6}{8}$$",
+                "$$\\frac{4}{6}$$",
+                "$$\\frac{7}{9}$$",
+                "$$1 \\frac{3}{4}$$"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 77,
+            "question": "$$1 \\frac{1}{2} + 1 \\frac{1}{2} = \\dots ?$$",
+            "options": [
+                "2",
+                "1",
+                "2",
+                "1"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 78,
+            "question": "An angle which measures less than $$90^{\\circ}$$ is called —?",
+            "options": [
+                "Obtuse angle",
+                "Right angle",
+                "Acute angle",
+                "Straight angle"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 79,
+            "question": "Rs $$90.50$$ paise $=$ — paise?",
+            "options": [
+                "9050 paise",
+                "9050 paise",
+                "9050 paise",
+                "90.50 paise"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 80,
+            "question": "The cost of 1 one school bag is Rs $$325.40$$. What is the cost of 12 such bags?",
+            "options": [
+                "Rs 3904.80",
+                "Rs 3844.80",
+                "Rs 532.80",
+                "Rs 53.540"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 81,
+            "question": "Find the interval between 10 am and 12 pm?",
+            "options": [
+                "2 hrs",
+                "1 hrs 40 mins",
+                "1 hr",
+                "2 hrs"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 82,
+            "question": "The unit of currency in India is —?",
+            "options": [
+                "Dollar",
+                "Rupee",
+                "Pound",
+                "Euro"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 83,
+            "question": "An angle measuring — is called a straight angle?",
+            "options": [
+                "$$45^{\\circ}$$",
+                "$$90^{\\circ}$$",
+                "$$180^{\\circ}$$",
+                "$$360^{\\circ}$$"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 84,
+            "question": "Write the decimal form of $$\\frac{4567}{100}$$",
+            "options": [
+                "4.567",
+                "0.4567",
+                "45.67",
+                "4.567"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 85,
+            "question": "What is 25% of 160?",
+            "options": [
+                "40",
+                "44",
+                "35",
+                "50"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 86,
+            "question": "$$20:40$$ hours in 12-hour clock time is —?",
+            "options": [
+                "8.40 am",
+                "8.40 pm",
+                "11.40 pm",
+                "9.40 am"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 87,
+            "question": "You spend Rs 15 on a book and Rs 8 on a pen. You give the cashier Rs 50. How much change do you get?",
+            "options": [
+                "250",
+                "278",
+                "260",
+                "267"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 88,
+            "question": "$$Rs 65.5 + Rs 20.1 + Rs 62.40 = \\dots ?$$",
+            "options": [
+                "Rs 160.5",
+                "Rs 05.00",
+                "Rs 147.05",
+                "Rs 170.05"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 89,
+            "question": "Roman numeral of 50 is —?",
+            "options": [
+                "XXV",
+                "XXVI",
+                "XXXV",
+                "XXXXI"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 90,
+            "question": "Place value of 3 in 54752535 is —?",
+            "options": [
+                "30,000",
+                "30,000",
+                "3",
+                "300"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 91,
+            "question": "One side of a square playground is $$13 \\text{ m}$$. The area is —?",
+            "options": [
+                "$$157 \\text{ m}^2$$",
+                "$$1576 \\text{ m}^2$$",
+                "$$1476 \\text{ m}^2$$",
+                "$$127 \\text{ m}^2$$"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 92,
+            "question": "The average of five numbers is 42. What is their total sum?",
+            "options": [
+                "210",
+                "220",
+                "190",
+                "202"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 93,
+            "question": "Write the numeral of seventeen lakh two hundred two.",
+            "options": [
+                "17,00,202",
+                "17,02,202",
+                "7,00,202",
+                "70,202"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 94,
+            "question": "Which figure has no vertices and no edges?",
+            "options": [
+                "Sphere",
+                "Square",
+                "Triangle",
+                "Cube"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 95,
+            "question": "A shop sold 3 pencils in the first hour, twice as many in the second hour and 4 fewer than that in the third hour. How many pencils in total?",
+            "options": [
+                "55",
+                "36",
+                "54",
+                "45"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 96,
+            "question": "Place value of 2 in 54752535 is —?",
+            "options": [
+                "30,000",
+                "30,000",
+                "3",
+                "300"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 97,
+            "question": "The number which is the least odd prime number?",
+            "options": [
+                "4",
+                "3",
+                "2",
+                "1"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 98,
+            "question": "Which number fits this clue: 4-digit number, 6 tens add up to 100. I am divisible by 5. What number am I?",
+            "options": [
+                "34",
+                "99",
+                "55",
+                "50"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 99,
+            "question": "Write the fractional form of 5.28?",
+            "options": [
+                "$$\\frac{528}{100}$$",
+                "$$\\frac{528}{10}$$",
+                "$$\\frac{528}{1000}$$",
+                "$$\\frac{528}{100}$$"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 100,
+            "question": "HCF of 12 and 24 is —?",
+            "options": [
+                "12",
+                "288",
+                "24",
+                "6"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}

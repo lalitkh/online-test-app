@@ -1,0 +1,606 @@
+{
+  "title": "KISA Set-2",
+  "duration": 1800,
+  "questions": [
+    {
+      "id": 51,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The followers of Islam are called ______.",
+      "options": [
+        "Hindus",
+        "Muslims",
+        "Sikhs",
+        "Parsis"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The famous Sikh Golden Temple is in ______.",
+      "options": [
+        "Delhi",
+        "Bangalore",
+        "Amritsar",
+        "Agra"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 53,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The founder of Buddhism was ______.",
+      "options": [
+        "Gautama Buddha",
+        "Guru Nanak",
+        "Jesus Christ",
+        "Shiva"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 54,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The holy place of Buddhism ______.",
+      "options": [
+        "Amritsar",
+        "Jaipur",
+        "Bodh Gaya",
+        "Varanasi"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 55,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The religion of Parsi is ______.",
+      "options": [
+        "Zoroastrianism",
+        "Sikkism",
+        "Hinduism",
+        "Buddhism"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 56,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "Onam is the cultural festival of which Indian state?",
+      "options": [
+        "Andhra Pradesh",
+        "Bihar",
+        "Kerala",
+        "Maharashtra"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 57,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "Which saint dedicated his life to Hindu-Muslim unity?",
+      "options": [
+        "Nanak",
+        "Ravidda",
+        "Mirabai",
+        "Saint Kabir Das"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 58,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "Who wrote the Brahma Sutras?",
+      "options": [
+        "Badarayana",
+        "Kabir",
+        "Brahma",
+        "Valmiki"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 59,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The ancient Vedic texts were written in which language?",
+      "options": [
+        "Punjabi",
+        "Sanskrit",
+        "Hindi",
+        "Kannada"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 60,
+      "topic": "Religion, Culture, Tradition and Our Epics",
+      "question": "The main festival of West Bengal is ______.",
+      "options": [
+        "Diwali",
+        "Durga Pooja",
+        "Holi",
+        "Bihu"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 61,
+      "topic": "Politics and Governance",
+      "question": "The Legislature is also known as ______.",
+      "options": [
+        "Loksabha",
+        "Rajyasabha",
+        "Panchayat Raj",
+        "Parliament"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 62,
+      "topic": "Politics and Governance",
+      "question": "India's 14 President was ______.",
+      "options": [
+        "Dr. APJ Abdul Kalam",
+        "Pratibha Patil",
+        "Ram Nath Kovind",
+        "Dr. Sarvepalli Radhakrishnan"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 63,
+      "topic": "Politics and Governance",
+      "question": "Who was the first elected President of Independent India?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Mahatma Gandhi",
+        "Dr. B.R. Ambedkar",
+        "Mohammad Ali Islam"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 64,
+      "topic": "Politics and Governance",
+      "question": "Who was the chairman of the drafting committee?",
+      "options": [
+        "Dr. Rajendra Prasad",
+        "Mahatma Gandhi",
+        "Dr. B.R. Ambedkar",
+        "Mohammad Ali Islam"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 65,
+      "topic": "Politics and Governance",
+      "question": "All Indians more than ______ years have the right to vote.",
+      "options": [
+        "20",
+        "19",
+        "25",
+        "18"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 66,
+      "topic": "Politics and Governance",
+      "question": "What type of Government has a King or Queen that holds all the power?",
+      "options": [
+        "Monarchy",
+        "Dictatorship",
+        "Direct democracy",
+        "Republic"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 67,
+      "topic": "Politics and Governance",
+      "question": "The tenure of MLC is ______.",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 68,
+      "topic": "Politics and Governance",
+      "question": "How many Fundamental rights are we enjoying?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 69,
+      "topic": "Politics and Governance",
+      "question": "Kargil Vijay Divas is celebrated on ______.",
+      "options": [
+        "26th of July",
+        "28th of July",
+        "26th of Jan",
+        "26th of August"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 70,
+      "topic": "Politics and Governance",
+      "question": "Our National Emblem has been taken from a pillar at ______.",
+      "options": [
+        "Konark",
+        "Ajanta",
+        "Sarnath",
+        "Kalikesh"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 71,
+      "topic": "Job and Career",
+      "question": "What do you call a person who paints pictures?",
+      "options": [
+        "Decorator",
+        "Cameraman",
+        "Artist",
+        "Painter"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 72,
+      "topic": "Job and Career",
+      "question": "Doctor who cares for a baby's overall development is ______.",
+      "options": [
+        "Dietician",
+        "Immunologist",
+        "Pediatrician",
+        "Dermatologist"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 73,
+      "topic": "Job and Career",
+      "question": "A fashion designer is a person who ______.",
+      "options": [
+        "cuts people's hair",
+        "works in the army",
+        "works on a boat",
+        "designs new clothes"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 74,
+      "topic": "Job and Career",
+      "question": "A lawyer is a person who ______.",
+      "options": [
+        "helps people when they are ill",
+        "helps people with their teeth",
+        "helps people with legal problems",
+        "fixes broken pipes"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 75,
+      "topic": "Job and Career",
+      "question": "A solider is a person who ______.",
+      "options": [
+        "cuts people's hair",
+        "serves in the army",
+        "helps people to learn things",
+        "help people with legal problems"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 76,
+      "topic": "Job and Career",
+      "question": "A pharmacist is a person who ______.",
+      "options": [
+        "dispenses medicine",
+        "serves in the army",
+        "designs new clothes",
+        "works on a boat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 77,
+      "topic": "Job and Career",
+      "question": "An optician is a person who ______.",
+      "options": [
+        "sells optics",
+        "serves in the army",
+        "sells fruits and vegetables",
+        "sails boat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 78,
+      "topic": "Job and Career",
+      "question": "Geologist is the one who studies the ______.",
+      "options": [
+        "Earth",
+        "Space",
+        "Water",
+        "Wind"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 79,
+      "topic": "Job and Career",
+      "question": "The branch of science which deals with the study of fishes ______.",
+      "options": [
+        "Botony",
+        "Zoology",
+        "Icthyology",
+        "Physiology"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 80,
+      "topic": "Job and Career",
+      "question": "Which industry is Human knowledge based industry?",
+      "options": [
+        "BT",
+        "IT",
+        "IISC",
+        "IISD"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 81,
+      "topic": "Food and Beverages",
+      "question": "How many calories are in one gram of fat?",
+      "options": [
+        "4 calories",
+        "5 calories",
+        "6 calories",
+        "9 calories"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 82,
+      "topic": "Food and Beverages",
+      "question": "Which of the following is stimulating beverage?",
+      "options": [
+        "Coffee",
+        "Soft drinks",
+        "Pure juice",
+        "Milk"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 83,
+      "topic": "Food and Beverages",
+      "question": "Which is the main ingredient of \"Gajar Ka Halwa\"?",
+      "options": [
+        "Lentil",
+        "Turnip",
+        "Carrot",
+        "Potato"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 84,
+      "topic": "Food and Beverages",
+      "question": "Lassi is a drink made from which dairy product?",
+      "options": [
+        "Yogurt",
+        "Buttermilk",
+        "Heavy cream",
+        "Cream Cheese"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 85,
+      "topic": "Food and Beverages",
+      "question": "What is the primary carbonation source in soft drinks?",
+      "options": [
+        "CO2",
+        "Nitrogen",
+        "Hydrogen",
+        "Oxygen"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 86,
+      "topic": "Food and Beverages",
+      "question": "The word 'Tea' is of ______ origin.",
+      "options": [
+        "Greek origin",
+        "Egyptian origin",
+        "Chinese origin",
+        "Sri lankan origin"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 87,
+      "topic": "Food and Beverages",
+      "question": "The milk, cheese and yogurt group are important for ______.",
+      "options": [
+        "strong bones",
+        "teeth",
+        "muscles",
+        "all of these"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 88,
+      "topic": "Food and Beverages",
+      "question": "Which of the following beverages has no fat, sugar or oils?",
+      "options": [
+        "Milk",
+        "Lime Juice",
+        "Coffee with cream",
+        "Unsweetened Black Iced Tea"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 89,
+      "topic": "Food and Beverages",
+      "question": "About half of your diet should be made up of ______.",
+      "options": [
+        "Fruits, Grain and Vegetables",
+        "Fruits and Milk",
+        "Milk and Cheese",
+        "Fats and Sugars"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 90,
+      "topic": "Food and Beverages",
+      "question": "Which is the most popular Spice in the world?",
+      "options": [
+        "Cardamom",
+        "Clove",
+        "Coriander",
+        "Pepper"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 91,
+      "topic": "Computer Applications",
+      "question": "______ is used to store data temporarily.",
+      "options": [
+        "Primary memory",
+        "Secondary Memory",
+        "Speaker",
+        "Mother board"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 92,
+      "topic": "Computer Applications",
+      "question": "______ stores all software and data and is fixed to CPU box.",
+      "options": [
+        "Pen drive",
+        "Compact disk",
+        "Hard disk",
+        "Mother board"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 93,
+      "topic": "Computer Applications",
+      "question": "Which device is used to take large printouts of drawings?",
+      "options": [
+        "Plotter",
+        "Printer",
+        "Microphone",
+        "Speakers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 94,
+      "topic": "Computer Applications",
+      "question": "All internal parts of a computer including CPU are attached to the ______.",
+      "options": [
+        "CPU Box",
+        "RAM",
+        "Mother board",
+        "Monitor"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 95,
+      "topic": "Computer Applications",
+      "question": "Which of the following is not an input device?",
+      "options": [
+        "Printer",
+        "Bright Pen",
+        "Microphone",
+        "Mouse"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 96,
+      "topic": "Computer Applications",
+      "question": "Bold, Italic and Underline buttons are found on ______ tool bar.",
+      "options": [
+        "standard",
+        "status",
+        "formatting",
+        "task bar"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 97,
+      "topic": "Computer Applications",
+      "question": "The size of the character is called as ______.",
+      "options": [
+        "Font size",
+        "Font style",
+        "Font",
+        "Bullet"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 98,
+      "topic": "Computer Applications",
+      "question": "Short cut key to underline the selected text is ______.",
+      "options": [
+        "Ctrl + B",
+        "Ctrl + E",
+        "Ctrl + U",
+        "Ctrl + L"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 99,
+      "topic": "Computer Applications",
+      "question": "Which of the following is not a Web Browser?",
+      "options": [
+        "Mozilla Firefox",
+        "Internet Explore",
+        "MS Word",
+        "Opera"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 100,
+      "topic": "Computer Applications",
+      "question": "Website is a collection of related ______.",
+      "options": [
+        "Software",
+        "Browser",
+        "Hyperlinks",
+        "Web Pages"
+      ],
+      "correctAnswer": 3
+    }
+  ]
+}

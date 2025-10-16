@@ -1,0 +1,1106 @@
+{
+  "title": "DCL IQ GK-1",
+  "duration": 3600,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these countries shares the longest boundary with India?",
+      "options": [
+        "Nepal",
+        "Bangladesh",
+        "Pakistan",
+        "Myanmar"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "Which is the tallest peak in India?",
+      "options": [
+        "Kanchenjunga",
+        "Godwin Austin",
+        "Nangaparbat",
+        "Mount Everest"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "Which is the tallest peak in South India?",
+      "options": [
+        "Mahendragiri",
+        "Anamudi",
+        "Ponmudi",
+        "Brahmagiri"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "Which state in India has the longest Sea Coast Line?",
+      "options": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Maharashtra",
+        "West Bengal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "Which part of the Earth is made up of molten rock?",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Core",
+        "Surface"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which is the oldest mountain in India?",
+      "options": [
+        "The Poorvanchal",
+        "The Satpura",
+        "The Aravalli",
+        "The Sahyadri"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "Which of these Islands is situated in the Arabian Sea?",
+      "options": [
+        "Lakshadweep",
+        "Maldives",
+        "Andaman and Nicobar",
+        "Sri Lanka"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What do we call the process by which plants make their food?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Germination",
+        "Transpiration"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "Which is the longest river in India?",
+      "options": [
+        "Indus",
+        "Ganga",
+        "Brahmaputra",
+        "Yamuna"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a West flowing river?",
+      "options": [
+        "Tungabhadra",
+        "Mahanadi",
+        "Narmada",
+        "Godavari"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "question": "Which planet has the most moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Mars"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of these is the meeting place of the Ganga and Yamuna?",
+      "options": [
+        "Haridwar",
+        "Banaras",
+        "Rishikesh",
+        "Prayagraj"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "question": "Which famous scientist developed the three laws of motion?",
+      "options": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Thomas Edison"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 14,
+      "question": "Next to Hindi which is the India's most spoken language?",
+      "options": [
+        "Tamil",
+        "Marathi",
+        "Bengali",
+        "Telugu"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "question": "Which city is known as the 'City of Palaces'?",
+      "options": [
+        "Delhi",
+        "Agra",
+        "Kolkata",
+        "Patna"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "question": "Which Indian leader gave the slogan 'Do or Die'?",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Bhagat Singh",
+        "Subhash Chandra Bose"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "In which state is the Hirakud Dam situated?",
+      "options": [
+        "Karnataka",
+        "Odisha",
+        "Madhya Pradesh",
+        "Uttaranchal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "Which is the oldest of the Dravidian languages?",
+      "options": [
+        "Telugu",
+        "Malayalam",
+        "Kannada",
+        "Tamil"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 19,
+      "question": "Which one of the following is not correctly matched?",
+      "options": [
+        "Mysore - Brindavan Gardens",
+        "Madurai - Meenakshi Temple",
+        "Hyderabad - Charminar",
+        "Mumbai - Marina Beach"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 20,
+      "question": "Which planet has a giant storm called the Great Red Spot?",
+      "options": [
+        "Mars",
+        "Saturn",
+        "Jupiter",
+        "Neptune"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "question": "How many chambers does a human heart have?",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Iron",
+        "Gold",
+        "Diamond",
+        "Quartz"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "question": "The 'Blue Mountain' is a name given to the",
+      "options": [
+        "Sabarigiri",
+        "Nilgiri Hills",
+        "Silent Valley",
+        "Everest Mount"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which part of the brain helps in thinking and learning?",
+      "options": [
+        "Medulla",
+        "Cerebellum",
+        "Cerebrum",
+        "Spine"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "question": "The capital of Germany is",
+      "options": [
+        "Berlin",
+        "Lisbon",
+        "Frankfurt",
+        "Belgrade"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "Which city is the 'Queen of the Arabian Sea'?",
+      "options": [
+        "Bangalore",
+        "Alappuzha",
+        "Kolkata",
+        "Kochi"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 27,
+      "question": "Who is called 'The Mysore Tiger'?",
+      "options": [
+        "Tipu Sultan",
+        "Babar",
+        "Akbar",
+        "Ashoka"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "Which country hosted the first Olympic Games?",
+      "options": [
+        "Italy",
+        "France",
+        "USA",
+        "Greece"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 29,
+      "question": "Which country did Narendra Modi visit first after becoming the Prime Minister of India?",
+      "options": [
+        "China",
+        "Bhutan",
+        "Japan",
+        "USA"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "The National bird of India is the",
+      "options": [
+        "Peacock",
+        "Parrot",
+        "Hen",
+        "Crow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "The national game of our country is the",
+      "options": [
+        "Kabaddi",
+        "Cricket",
+        "Hockey",
+        "Football"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 32,
+      "question": "Viswanathan Anand is associated with ———.",
+      "options": [
+        "Tennis",
+        "Hockey",
+        "Cricket",
+        "Chess"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 33,
+      "question": "Who is the author of the book 'The Shadow Lines'?",
+      "options": [
+        "Amitav Ghosh",
+        "A.P.J. Abdul Kalam",
+        "Anita Desai",
+        "Chetan Bhagat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "Ganesh Chaturthi is the main festival of ———.",
+      "options": [
+        "West Bengal",
+        "Tamil Nadu",
+        "Maharashtra",
+        "Kerala"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 35,
+      "question": "Which one of the following branches of medical science deals with the disorders of heart?",
+      "options": [
+        "Immunology",
+        "Cardiology",
+        "Hematology",
+        "Radiology"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "The headquarters of the International Olympic Committee (IOC) is located in which one of the following countries?",
+      "options": [
+        "Belgium",
+        "Switzerland",
+        "Malaysia",
+        "China"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "question": "Who is the founder of Sikhism?",
+      "options": [
+        "Vardhman Mahavira",
+        "Guru Govind Singh",
+        "Gautam Buddha",
+        "Guru Nanak Dev"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 38,
+      "question": "Who is the composer of the National Anthem of Bangladesh?",
+      "options": [
+        "Ahmad G. Changia",
+        "Ravi Shankar",
+        "Rabindranath Tagore",
+        "Kazi Nazrul Islam"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "question": "Who discovered America in 1492?",
+      "options": [
+        "Vasco da Gama",
+        "Christopher Columbus",
+        "Ferdinand Magellan",
+        "Marco Polo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "Which battle did the British win to start ruling India?",
+      "options": [
+        "Battle of Plassey",
+        "Battle of Panipat",
+        "Battle of Haldighati",
+        "Battle of Buxar"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "Who was the last Viceroy of British India?",
+      "options": [
+        "Lord Curzon",
+        "Lord Wellesley",
+        "Lord Mountbatten",
+        "Lord Dalhousie"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is a major cause of soil erosion?",
+      "options": [
+        "Heavy rainfall",
+        "Flood",
+        "Destruction of forests",
+        "Cultivation"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 43,
+      "question": "Which Indian king is famous for spreading Buddhism?",
+      "options": [
+        "Vikramaditya",
+        "Harsha",
+        "Chandragupta",
+        "Ashoka"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 44,
+      "question": "Who led the Indian National Army (INA)?",
+      "options": [
+        "Sardar Patel",
+        "Lala Lajpat Rai",
+        "Bhagat Singh",
+        "Subhash Chandra Bose"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 45,
+      "question": "Which of these trees does not have any medicinal value?",
+      "options": [
+        "Eucalyptus",
+        "Neem",
+        "Cinchona",
+        "Rosewood"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 46,
+      "question": "Which of these is the fastest growing tree?",
+      "options": [
+        "Teak",
+        "Eucalyptus",
+        "Banyan",
+        "Jackfruit Tree"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 47,
+      "question": "Which empire built the Qutub Minar?",
+      "options": [
+        "Maratha Empire",
+        "Gupta Empire",
+        "Mughal Empire",
+        "Delhi Sultanate"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 48,
+      "question": "Which of these gases does plants use to prepare food?",
+      "options": [
+        "Oxygen",
+        "Carbon-dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "question": "Who painted the famous artwork Mona Lisa?",
+      "options": [
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "Which city had a famous wooden horse in Greek mythology?",
+      "options": [
+        "Rome",
+        "Sparta",
+        "Athens",
+        "Troy"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 51,
+      "question": "Which explorer first sailed around the world?",
+      "options": [
+        "Marco Polo",
+        "Ferdinand Magellan",
+        "Columbus",
+        "James Cook"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "question": "Who is the newly elected pope of catholic church?",
+      "options": [
+        "John XXI",
+        "Honorius IV",
+        "John Paul I",
+        "Leo XIV"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 53,
+      "question": "Which country has the shape of a boot?",
+      "options": [
+        "Turkey",
+        "Spain",
+        "Italy",
+        "UK"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 54,
+      "question": "In which state is Bhakra Nangal Dam situated?",
+      "options": [
+        "Himachal Pradesh",
+        "Punjab",
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 55,
+      "question": "Across which river is the Bhakra Nangal Dam built?",
+      "options": [
+        "Sutlej",
+        "Yamuna",
+        "Brahmaputra",
+        "Kaveri"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 56,
+      "question": "Which is the capital of Australia?",
+      "options": [
+        "Brisbane",
+        "Melbourne",
+        "Sydney",
+        "Canberra"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 57,
+      "question": "Which of these is biodegradable?",
+      "options": [
+        "Vegetables",
+        "Plastics",
+        "Glass",
+        "Chemicals"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 58,
+      "question": "Which country is shaped like a maple leaf on its flag?",
+      "options": [
+        "UK",
+        "Canada",
+        "USA",
+        "None of these"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 59,
+      "question": "Which sea separates Europe and Africa?",
+      "options": [
+        "Mediterranean Sea",
+        "Red Sea",
+        "Arabian Sea",
+        "Baltic Sea"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 60,
+      "question": "The World Environment Day is celebrated on",
+      "options": [
+        "June 5",
+        "July 8",
+        "May 7",
+        "August 8"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 61,
+      "question": "In the blood, ..................... protects us from infection.",
+      "options": [
+        "Plasma",
+        "Hemoglobin",
+        "Red Blood Cells",
+        "White Blood Cells"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 62,
+      "question": "Which among the following is the India's longest range nuclear capable missile?",
+      "options": [
+        "Trishul",
+        "Prithvi 3",
+        "Brahmos 2",
+        "Agni-V"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 63,
+      "question": "Bleeding gums and loose teeth are due to the deficiency of ——— in the diet.",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin B"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 64,
+      "question": "Sunlight can greatly help in the prevention of ———.",
+      "options": [
+        "Scurvy",
+        "Rickets",
+        "Goitre",
+        "Pellagra"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 65,
+      "question": "Who among the following is the first women Chief Minister of India?",
+      "options": [
+        "Kiran Bedi",
+        "Sucheta Kriplani",
+        "Rajkumari Amrit Kaur",
+        "Vijaya Lakshmi Pandit"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 66,
+      "question": "For healthy bones and teeth, which of the following vitamins is essential?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 67,
+      "question": "Name two diseases that are spread via mosquito bite.",
+      "options": [
+        "Measles and Whooping Cough",
+        "Cholera and Typhoid",
+        "Chicken Pox and Small Pox",
+        "Malaria and Filaria"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 68,
+      "question": "Veer Savarkar International Airport is situated in which of the following cities of India?",
+      "options": [
+        "Visakhapatnam",
+        "Port Blair",
+        "Hyderabad",
+        "Guwahati"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 69,
+      "question": "A disease that spreads through air is",
+      "options": [
+        "Cholera",
+        "Typhoid",
+        "Tuberculosis",
+        "Dysentery"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 70,
+      "question": "What is the full form of the rocket PSLV designed and developed by ISRO?",
+      "options": [
+        "Polar satellite latest vehicle",
+        "Primary satellite launch vehicle",
+        "Polar satellite launch vehicle",
+        "Polar statistic launch vehicle"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 71,
+      "question": "Which vitamin is essential for the healthy functioning of eyes?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 72,
+      "question": "What is the center of an atom called?",
+      "options": [
+        "Nucleus",
+        "Cell",
+        "Molecule",
+        "Electron"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 73,
+      "question": "Which of these materials is a good conductor of electricity?",
+      "options": [
+        "Rubber",
+        "Copper",
+        "Plastic",
+        "Iron"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 74,
+      "question": "What is SARS?",
+      "options": [
+        "A highly communicable disease affecting respiratory organs",
+        "A Stomach disease",
+        "A disease affecting liver",
+        "A disease affecting children"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 75,
+      "question": "Which force slows down a moving bicycle?",
+      "options": [
+        "Friction",
+        "Gravity",
+        "Magnetism",
+        "Electricity"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 76,
+      "question": "Which vitamin prevents the clotting of blood in your body?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 77,
+      "question": "Why do objects float or sink in water?",
+      "options": [
+        "Density",
+        "Temperature",
+        "Weight only",
+        "Shape"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 78,
+      "question": "Which disease is caused when germs enter our body through an open wound?",
+      "options": [
+        "Polio",
+        "Tetanus",
+        "Jaundice",
+        "Diphtheria"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 79,
+      "question": "How many chambers does the heart of a frog have?",
+      "options": [
+        "3",
+        "5",
+        "2",
+        "4"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 80,
+      "question": "Which one of these animals is cold-blooded?",
+      "options": [
+        "Tiger",
+        "Cat",
+        "Dog",
+        "Frog"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 81,
+      "question": "In human beings the sound is produced by ———.",
+      "options": [
+        "The mouth",
+        "The lungs",
+        "The larynx",
+        "The tongue"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 82,
+      "question": "The first set of teeth formed in babies are called",
+      "options": [
+        "Permanent teeth",
+        "Milk teeth",
+        "Premolars",
+        "Incisors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 83,
+      "question": "What does the Ashoka Chakra on the Indian flag represent?",
+      "options": [
+        "The 24 states of India",
+        "A spinning wheel",
+        "A symbol of the law and duty",
+        "The 24 hours of the day"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 84,
+      "question": "Name a liquid metal.",
+      "options": [
+        "Iron",
+        "Mercury",
+        "Phosphorus",
+        "Zinc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 85,
+      "question": "The nutrients that can be easily destroyed while cooking are",
+      "options": [
+        "Carbohydrates",
+        "Minerals",
+        "Fats",
+        "Vitamins"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 86,
+      "question": "Which type of economy is mostly based on farming and handmade goods?",
+      "options": [
+        "Industrial economy",
+        "Mixed economy",
+        "Capitalist economy",
+        "Traditional economy"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 87,
+      "question": "Which ancient civilization was found along the Indus River?",
+      "options": [
+        "Egyptian",
+        "Roman",
+        "Harappan",
+        "Mesopotamian"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 88,
+      "question": "What helps a plant to stand firm in the soil?",
+      "options": [
+        "Manure",
+        "Fruit",
+        "Roots",
+        "Flower"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 89,
+      "question": "Which body makes the laws in India?",
+      "options": [
+        "Supreme Court",
+        "Parliament",
+        "President",
+        "Cabinet"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 90,
+      "question": "The organ that pumps blood to all parts of the body.",
+      "options": [
+        "Heart",
+        "Kidney",
+        "Lung",
+        "Brain"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 91,
+      "question": "Which ancient Indian text is known as the world's oldest epic?",
+      "options": [
+        "Ramayana",
+        "Bhagavad Gita",
+        "Vedas",
+        "None of these"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 92,
+      "question": "Which of the following rivers flows from Tibet into India?",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Godavari",
+        "Krishna"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 93,
+      "question": "Which country has won the most FIFA World Cup titles?",
+      "options": [
+        "Germany",
+        "Brazil",
+        "Argentina",
+        "Italy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 94,
+      "question": "Which state is known as the 'Spice Garden of India'?",
+      "options": [
+        "Madhya Pradesh",
+        "Karnataka",
+        "Kerala",
+        "West Bengal"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 95,
+      "question": "Which animal in Gir forest at Gujarat famous for?",
+      "options": [
+        "Tiger",
+        "Elephant",
+        "Bison",
+        "Lion"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 96,
+      "question": "In which sport is the 'Wimbledon' tournament played?",
+      "options": [
+        "Football",
+        "Cricket",
+        "Tennis",
+        "Hockey"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 97,
+      "question": "Zimbabwe is the new name of",
+      "options": [
+        "Rhodesia",
+        "Gold coast",
+        "Banaras",
+        "Kalinga"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 98,
+      "question": "Which fruit is known as the 'King of fruits'?",
+      "options": [
+        "Mango",
+        "Apple",
+        "Orange",
+        "Cashew"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 99,
+      "question": "The Indian scientist who won the Nobel Prize in Physics.",
+      "options": [
+        "C.V. Raman",
+        "J.C. Bose",
+        "Amarthya Sen",
+        "Rabindranath Tagore"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 100,
+      "question": "Which Indian cricketer is known as the 'Hitman'?",
+      "options": [
+        "Virat Kohli",
+        "M.S. Dhoni",
+        "Rohit Sharma",
+        "Hardik Pandya"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+{
+  "title": "DCL IQ GK-2",
+  "duration": 3600,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Indian Tourism Day is celebrated on",
+      "options": [
+        "January 25",
+        "January 1",
+        "June 24",
+        "July 3"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "The first effective vaccine against Polio was introduced by",
+      "options": [
+        "Robert Edwards",
+        "Jonas E. Salk",
+        "John Gibbsson",
+        "Louis Pasteur"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "The first state to introduce 'Panchayati Raj' system was",
+      "options": [
+        "Bihar",
+        "Rajasthan",
+        "Tamil Nadu",
+        "Punjab"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "The minimum age to contest as a member of Panchayath?",
+      "options": [
+        "18",
+        "21",
+        "25",
+        "30"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "Name the country other than India whose Independence Day is August 15?",
+      "options": [
+        "South Yemen",
+        "Pakistan",
+        "Madagascar",
+        "South Korea"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "question": "The oldest 'Veda' is",
+      "options": [
+        "Sama Veda",
+        "Adharva Veda",
+        "Rig Veda",
+        "Yajur Veda"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "The 'Champaran Satyagraha' was started by Gandhiji in the year",
+      "options": [
+        "1915",
+        "1917",
+        "1919",
+        "1930"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "The first newspaper to be published in India was",
+      "options": [
+        "Indian Mirror",
+        "The Hindu",
+        "Times of India",
+        "The Bengal Gazette"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "question": "The script of which of the following countries is hieroglyphic?",
+      "options": [
+        "Japan",
+        "India",
+        "China",
+        "Egypt"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 10,
+      "question": "When is the National Science Day observed",
+      "options": [
+        "February 28",
+        "January 26",
+        "July 26",
+        "June 26"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "Which of the following toxic substances is used in thermometers other than the digital on",
+      "options": [
+        "Arsenic",
+        "Lead",
+        "Charcoal",
+        "Mercury"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 12,
+      "question": "Who abolished slavery in the USA?",
+      "options": [
+        "George Washington",
+        "John F Kennedy",
+        "Martin Luther King",
+        "Abraham Lincoln"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "question": "The percentage of earth's surface covered by India is",
+      "options": [
+        "2.4",
+        "3.4",
+        "4.2",
+        "3.2"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "In India, an active volcano is situated at",
+      "options": [
+        "Lakshadweep",
+        "Malwa Plateau",
+        "Andaman and Nicobar",
+        "Eastern Ghats"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "question": "The 23 1/2° South latitude is known as",
+      "options": [
+        "Tropic of Cancer",
+        "The Equator",
+        "The Tropic of Capricorn",
+        "Prime Meridian"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "question": "The headquarters of the RBI is in.",
+      "options": [
+        "Delhi",
+        "Mumbai",
+        "Kanpur",
+        "Nasik"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "'Silver Revolution' relates to",
+      "options": [
+        "Milk production",
+        "Wheat production",
+        "Egg production",
+        "Fruit production"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 18,
+      "question": "Which is the smallest bone in the human body?",
+      "options": [
+        "Stapes",
+        "Femur",
+        "Radius",
+        "Fibula"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "Total number of bones in human body:",
+      "options": [
+        "306",
+        "260",
+        "214",
+        "206"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 20,
+      "question": "Identify the country with world's lowest population density.",
+      "options": [
+        "Saudi Arabia",
+        "Iceland",
+        "Congo",
+        "Greenland"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 21,
+      "question": "Acquired Immuno-Deficiency Syndrome (AIDS) is caused by a",
+      "options": [
+        "Bacterium",
+        "Protozoan",
+        "Fungus",
+        "Virus"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 22,
+      "question": "Which of these bones is not present inside our ear?",
+      "options": [
+        "Malleus",
+        "Tibia",
+        "Incus",
+        "Stapes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a physical change?",
+      "options": [
+        "Burning of a candle",
+        "Vaporization of water",
+        "Reaction between an acid and a base",
+        "Conversion of milk into curd"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is known as 'The Queen of Sciences'?",
+      "options": [
+        "Physics",
+        "Mathematics",
+        "Chemistry",
+        "Zoology"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "Mechanical energy is converted into electrical energy by",
+      "options": [
+        "A motor",
+        "A bulb",
+        "An electric bell",
+        "A dynamo"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 26,
+      "question": "A device used for measuring the depth of sea.",
+      "options": [
+        "Altimeter",
+        "Fathometer",
+        "Hydrometer",
+        "Manometer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "The highest literary award of India is the",
+      "options": [
+        "Jnanpith Award",
+        "Saraswathi Samman",
+        "Vyas Samman",
+        "Sadbhavana Award"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "'Ashes cup' is related to",
+      "options": [
+        "Football",
+        "Chess",
+        "Badminton",
+        "Cricket"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 29,
+      "question": "Seismograph is used to measure.",
+      "options": [
+        "Atmospheric pressure",
+        "Earthquakes",
+        "Rain",
+        "Storms"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "The country to use paper currency first in the world was",
+      "options": [
+        "India",
+        "Russia",
+        "America",
+        "China"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 31,
+      "question": "The first woman president of India was",
+      "options": [
+        "Prathibha Patil",
+        "Indira Gandhi",
+        "Sarojini Naidu",
+        "Mecra Kumar"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "Which is the smallest bird in the world?",
+      "options": [
+        "Lady bird",
+        "Tailor bird",
+        "Humming bird",
+        "Love bird"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 33,
+      "question": "The technique of swapping items between memory and storage is called:",
+      "options": [
+        "Texting",
+        "Reading",
+        "Dragging",
+        "Paging"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 34,
+      "question": "Michael Jordan excels in the field of",
+      "options": [
+        "Chess",
+        "Judo",
+        "Cricket",
+        "Basketball"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 35,
+      "question": "The capital of Japan is",
+      "options": [
+        "London",
+        "Tokyo",
+        "Paris",
+        "Delhi"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What causes an object to start moving, stop, or change direction?",
+      "options": [
+        "Force",
+        "Shape",
+        "Gravity",
+        "Energy"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "The best laboratory method to diagnose AIDS is",
+      "options": [
+        "ELISA Test",
+        "Oxford test",
+        "Western Blot test",
+        "VDRL Test"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 38,
+      "question": "The organ that can never be affected by cancer?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Heart",
+        "Spleen"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 39,
+      "question": "What do we call objects that allow some light to pass through?",
+      "options": [
+        "Opaque",
+        "Translucent",
+        "Transparent",
+        "Solid"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "Who discovered the blood circulation system of the human body?",
+      "options": [
+        "Alexander Fleming",
+        "Hansen",
+        "Edward Jenner",
+        "William Harvey"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 41,
+      "question": "Which one is the lightest gas?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "Carbon dioxide"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "The acid present in lemons and orange is.",
+      "options": [
+        "Acetic Acid",
+        "Hydrochloric Acid",
+        "Oxalic Acid",
+        "Citric Acid"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 43,
+      "question": "The last census of India was conducted in the year",
+      "options": [
+        "1981",
+        "1991",
+        "2001",
+        "2011"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 44,
+      "question": "Small Pox vaccine was discovered by",
+      "options": [
+        "Louis Pasteur",
+        "Robert Koch",
+        "Ronald Ross",
+        "Edward Jenner"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 45,
+      "question": "Nephrology is the study of",
+      "options": [
+        "Kidney",
+        "Lungs",
+        "Pancreas",
+        "Heart"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "Which gas is responsible for rusting of iron?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Oxygen",
+        "None of these"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 47,
+      "question": "Jim Corbett National Park is located in",
+      "options": [
+        "Uttar Pradesh",
+        "Jharkhand",
+        "Chattisgarh",
+        "Uttarakhand"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 48,
+      "question": "The currency of Saudi Arabia is",
+      "options": [
+        "Dinar",
+        "Lira",
+        "Riyal",
+        "Rupee"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 49,
+      "question": "'World Health Day' is observed on.",
+      "options": [
+        "April 7",
+        "May 7",
+        "April 1",
+        "May 1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "The first Lady Governor of Independent India was",
+      "options": [
+        "Vijayalakshmi Pandit",
+        "Sheila Dixit",
+        "Sarojini Naidu",
+        "None of these"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 51,
+      "question": "What do you call the young one of a frog?",
+      "options": [
+        "Calf",
+        "Tadpole",
+        "Cub",
+        "Kitten"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "question": "Name the Anti - Sterile vitamin?",
+      "options": [
+        "Vitamin E",
+        "Vitamin A",
+        "Vitamin K",
+        "Vitamin D"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 53,
+      "question": "Which part of the eye controls how much light enters?",
+      "options": [
+        "Retina",
+        "Iris",
+        "Lens",
+        "Pupil"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 54,
+      "question": "The major constituent of hemoglobin is",
+      "options": [
+        "Protein",
+        "Iron",
+        "Fat",
+        "Vitamin"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 55,
+      "question": "The nerves that connect the eyes to the brain are called:",
+      "options": [
+        "Eye muscles",
+        "Optic nerves",
+        "Brain cords",
+        "Eyelids"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 56,
+      "question": "Electric current is measured by using an",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Anemometer",
+        "None of these"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 57,
+      "question": "Primary colors are",
+      "options": [
+        "Red, Green, Blue",
+        "Orange, Blue, Yellow",
+        "Red, Blue, Yellow",
+        "None of these"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 58,
+      "question": "The number of chromosomes in a human being are",
+      "options": [
+        "48",
+        "36",
+        "46",
+        "47"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 59,
+      "question": "The functional unit of the kidney is",
+      "options": [
+        "Nephron",
+        "Neuron",
+        "Nephritis",
+        "Lymph"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 60,
+      "question": "Which bacteria converts milk into curd?",
+      "options": [
+        "Aerobic",
+        "E-coli",
+        "Lactobacillus",
+        "None of these"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 61,
+      "question": "The author of India's National Song is",
+      "options": [
+        "Rabindranath Tagore",
+        "Subramania Bharathi",
+        "Bankim Chandra Chatterjee",
+        "Mulk Raj Anand"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 62,
+      "question": "What is the name of the line the bowler must not cross while bowling?",
+      "options": [
+        "Wicket line",
+        "Pitch line",
+        "Crease line",
+        "Bowling line"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 63,
+      "question": "The Indian who attended the Parliament of Religions at Chicago in 1893 is",
+      "options": [
+        "Raja Ram Mohan Roy",
+        "Dayananda Saraswathi",
+        "Swami Vivekananda",
+        "Gandhiiji"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 64,
+      "question": "The lower part of the atmosphere of the earth is called the",
+      "options": [
+        "Stratosphere",
+        "Ionosphere",
+        "Mesosphere",
+        "Troposphere"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 65,
+      "question": "Which sport uses the term 'medley'?",
+      "options": [
+        "Swimming",
+        "Athletics",
+        "Table tennis",
+        "Football"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 66,
+      "question": "From where did Gandhiji start the famous Dandi March?",
+      "options": [
+        "Mumbai",
+        "Ahmedabad",
+        "Surat",
+        "Pune"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 67,
+      "question": "Which of these sports uses a puck?",
+      "options": [
+        "Football",
+        "Swimming",
+        "Ice Hockey",
+        "Basketball"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 68,
+      "question": "Who is a famous tennis player from Switzerland?",
+      "options": [
+        "Novak Djokovic",
+        "Roger Federer",
+        "Andy Murra",
+        "Rafael Nadal"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 69,
+      "question": "The first country to speak about non-alignment was?",
+      "options": [
+        "China",
+        "Sri Lanka",
+        "India",
+        "Pakistan"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 70,
+      "question": "Arjuna Award is associated with",
+      "options": [
+        "Literature",
+        "Film",
+        "Peace",
+        "Sports"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 71,
+      "question": "Which Indian athlete won a gold medal in Javelin at the Olympics?",
+      "options": [
+        "Milkha Singh",
+        "Neeraj Chopra",
+        "P. T. Usha",
+        "Abhinav Bindra"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 72,
+      "question": "The last Governor-General of Independent India was",
+      "options": [
+        "Lord Mountbatten",
+        "Dr. Rajendra Prasad",
+        "Dr. S. Radhakrishnan",
+        "C. Rajagopalachari"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 73,
+      "question": "What are the five rings on the Olympic flag meant to represent?",
+      "options": [
+        "Five medals",
+        "Five continents",
+        "Five games",
+        "Five stadiums"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 74,
+      "question": "In which city is the Narendra Modi Stadium, the world's largest cricket stadium, located?",
+      "options": [
+        "Delhi",
+        "Chennai",
+        "Mumbai",
+        "Ahmedabad"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 75,
+      "question": "Which is the upper house of the Indian Parliament?",
+      "options": [
+        "Rajya Sabha",
+        "Lok Sabha",
+        "Vidhan Sabha",
+        "Panchayat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 76,
+      "question": "is the largest producer of wheat in India?",
+      "options": [
+        "Punjab",
+        "Kerala",
+        "Karnataka",
+        "Gujarat"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 77,
+      "question": "The gas that turns clear lime water milky",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "Carbon dioxide"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 78,
+      "question": "At Corbett National Park in Uttaranchal, are protected",
+      "options": [
+        "Lion",
+        "Tiger",
+        "Wild birds",
+        "Elephant"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 79,
+      "question": "The dynamo was invented by",
+      "options": [
+        "Newton",
+        "Einstein",
+        "Faraday",
+        "Edison"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 80,
+      "question": "Kakrapar Atomic Power Station (KAPS) is located in which state?",
+      "options": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Gujarat",
+        "Haryana"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 81,
+      "question": "Which country is known as the 'sugar bowl' of the world?",
+      "options": [
+        "Cuba",
+        "India",
+        "Indonesia",
+        "Brazil"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 82,
+      "question": "Which Indian leader gave the slogan 'Jai Jawan, Jai Kisan'?",
+      "options": [
+        "Lal Bahadur Shastri",
+        "Indira Gandhi",
+        "Atal Bihari Vajpayee",
+        "Rajiv Gandhi"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 83,
+      "question": "Gandhiji was born in",
+      "options": [
+        "Sevagram",
+        "Sabarmati",
+        "Porbandar",
+        "Wardha"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 84,
+      "question": "Which state sends the highest number of MPs to Lok Sabha?",
+      "options": [
+        "Gujarat",
+        "Rajasthan",
+        "Kerala",
+        "Uttar Pradesh"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 85,
+      "question": "Leander Paes is a player connected with",
+      "options": [
+        "Tennis",
+        "Cricket",
+        "Hockey",
+        "Football"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 86,
+      "question": "Who is the President of the United States (as of 2025)?",
+      "options": [
+        "Barack Obama",
+        "Joe Biden",
+        "George Bush",
+        "Donald Trump"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 87,
+      "question": "The sugar present in milk",
+      "options": [
+        "Sucrose",
+        "Mattose",
+        "Lactose",
+        "Fructose"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 88,
+      "question": "Which country invaded Ukraine in 2022?",
+      "options": [
+        "USA",
+        "Russia",
+        "India",
+        "China"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 89,
+      "question": "Which country follows a 'single-party rule' where only one political party is legally allowed to govern?",
+      "options": [
+        "France",
+        "USA",
+        "India",
+        "China"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 90,
+      "question": "The Nobel Peace Prize is awarded in which country?",
+      "options": [
+        "Sweden",
+        "Switzerland",
+        "Norway",
+        "Finland"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 91,
+      "question": "Sugar in the urine is a symptom of",
+      "options": [
+        "Diabetes",
+        "Cholera",
+        "High pressure",
+        "Typhoid"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 92,
+      "question": "What is the name of the global agreement on climate change signed in 2015?",
+      "options": [
+        "Kyoto Protocol",
+        "Paris Agreement",
+        "Rio Declaration",
+        "Earth Charter"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 93,
+      "question": "The world's first artificial satellite was",
+      "options": [
+        "Luna-3",
+        "Sputnik",
+        "Aryabhata",
+        "Explorer-1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 94,
+      "question": "Oxygen was discovered by",
+      "options": [
+        "Rutherford",
+        "Joseph Priestley",
+        "Lavoisier",
+        "Neil Bohr"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 95,
+      "question": "Who wrote the political book The Republic?",
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Socrates",
+        "Machiavelli"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 96,
+      "question": "'Swaraj is my birth right'. Who said this?",
+      "options": [
+        "Motilal Nehru",
+        "Gopala Krishna Gokhale",
+        "Mahatma Gandhi",
+        "Bal Gangadhar Tilak"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 97,
+      "question": "Monica Seles is associated with",
+      "options": [
+        "Tennis",
+        "Boxing",
+        "Athletics",
+        "Basketball"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 98,
+      "question": "Railway was introduced in India by?",
+      "options": [
+        "Lord Curzon",
+        "Lord Bentinck",
+        "Lord Dalhousie",
+        "Lord Mountbatten"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 99,
+      "question": "The biggest public sector undertaking in India?",
+      "options": [
+        "A P and T",
+        "Construction co-operation",
+        "Air India",
+        "Railways"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 100,
+      "question": "What was the name of the ISRO mission to Mars?",
+      "options": [
+        "Gaganyaan",
+        "Mangalyaan",
+        "Chandrayaan",
+        "Solar Project"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}
