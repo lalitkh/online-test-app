@@ -164,17 +164,27 @@ export default function OnlineTestApp() {
   };
 
   const handleAnswer = (questionId: number, answerIndex: number): void => {
-    setAnswers(prev => ({
-      ...prev,
-      [questionId]: answerIndex
-    }));
+    setAnswers(prev => {
+      const newAnswers = { ...prev };
 
-    // Auto-advance to next question after a short delay
-    if (currentQuestion < questionsData!.questions.length - 1) {
-      setTimeout(() => {
-        setCurrentQuestion(prev => prev + 1);
-      }, 300); // 300ms delay for visual feedback
-    }
+      // If clicking the same option, deselect it (reset)
+      if (newAnswers[questionId] === answerIndex) {
+        delete newAnswers[questionId];
+        return newAnswers;
+      }
+
+      // Otherwise, select the new option
+      newAnswers[questionId] = answerIndex;
+
+      // Auto-advance to next question after a short delay (only if answered)
+      if (currentQuestion < questionsData!.questions.length - 1) {
+        setTimeout(() => {
+          setCurrentQuestion(prev => prev + 1);
+        }, 300);
+      }
+
+      return newAnswers;
+    });
   };
 
   const handleSubmit = (): void => {
@@ -353,6 +363,11 @@ export default function OnlineTestApp() {
     const percentage = (score / questionsData.questions.length) * 100;
     const passed = percentage >= 90;
 
+    // Get wrong question indices
+    const wrongQuestions = questionsData.questions
+      .map((q, idx) => ({ question: q, index: idx }))
+      .filter(({ question }) => answers[question.id] !== question.correctAnswer);
+
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
         <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl w-full">
@@ -388,94 +403,115 @@ export default function OnlineTestApp() {
                 </div>
               </div>
             </div>
+            {/* Wrong Questions Quick Navigation */}
+            {wrongQuestions.length > 0 && (
+              <div className="bg-red-50 border-2 border-red-200 rounded-lg p-4 mb-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <XCircle className="w-5 h-5 text-red-600" />
+                  <h3 className="font-semibold text-red-800">Incorrect Questions</h3>
+                </div>
+                <p className="text-sm text-red-700 mb-3">Click on question numbers to jump directly:</p>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {wrongQuestions.map(({ index }) => (
+                    <a
+                      key={index}
+                      href={`#question-${index}`}
+                      className="w-10 h-10 rounded-lg bg-red-100 hover:bg-red-200 text-red-700 font-bold flex items-center justify-center border-2 border-red-300 transition-all"
+                    >
+                      {index + 1}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
 
-            <div className="space-y-6 mb-6 text-left max-h-96 overflow-y-auto">
-              {questionsData.questions.map((q, idx) => {
-                const userAnswer = answers[q.id];
-                const isCorrect = userAnswer === q.correctAnswer;
+          <div className="space-y-6 mb-6 text-left max-h-96 overflow-y-auto">
+            {questionsData.questions.map((q, idx) => {
+              const userAnswer = answers[q.id];
+              const isCorrect = userAnswer === q.correctAnswer;
 
-                return (
-                  <div key={q.id} className={`border-2 rounded-xl p-5 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
-                    <div className="flex items-start gap-3 mb-4">
-                      <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}>
-                        {idx + 1}
-                      </span>
-                      <div className="flex-1">
-                        {q.topic && (
-                          <span className="inline-block text-xs font-semibold px-2 py-1 bg-indigo-100 text-indigo-700 rounded mb-2">
-                            {q.topic}
-                          </span>
-                        )}
-                        <p className="text-lg font-semibold text-gray-800" dangerouslySetInnerHTML={{ __html: q.question }}></p>
-                      </div>
-                      <div className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-semibold ${isCorrect ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
-                        {isCorrect ? 'Correct' : 'Incorrect'}
-                      </div>
+              return (
+                <div key={q.id} id={`question-${idx}`} className={`border-2 rounded-xl p-5 scroll-mt-4 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
+                  <div className="flex items-start gap-3 mb-4">
+                    <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}>
+                      {idx + 1}
+                    </span>
+                    <div className="flex-1">
+                      {q.topic && (
+                        <span className="inline-block text-xs font-semibold px-2 py-1 bg-indigo-100 text-indigo-700 rounded mb-2">
+                          {q.topic}
+                        </span>
+                      )}
+                      <p className="text-lg font-semibold text-gray-800" dangerouslySetInnerHTML={{ __html: q.question }}></p>
                     </div>
-
-                    <div className="space-y-2 ml-11">
-                      {q.options.map((option, optIdx) => {
-                        const isUserAnswer = userAnswer === optIdx;
-                        const isCorrectAnswer = q.correctAnswer === optIdx;
-
-                        let optionClass = 'bg-white border-2 border-gray-200';
-
-                        if (isCorrectAnswer) {
-                          optionClass = 'bg-green-100 border-2 border-green-400';
-                        } else if (isUserAnswer && !isCorrect) {
-                          optionClass = 'bg-red-100 border-2 border-red-400';
-                        }
-
-                        return (
-                          <div key={optIdx} className={`p-3 rounded-lg ${optionClass}`}>
-                            <div className="flex items-center gap-2">
-                              <span className="font-semibold text-gray-700">{String.fromCharCode(65 + optIdx)}.</span>
-                              <span className="text-gray-800" dangerouslySetInnerHTML={{ __html: option }}></span>
-                              {isCorrectAnswer && (
-                                <span className="ml-auto text-xs font-semibold text-green-700 bg-green-200 px-2 py-1 rounded">
-                                  ✓ Correct Answer
-                                </span>
-                              )}
-                              {isUserAnswer && !isCorrect && (
-                                <span className="ml-auto text-xs font-semibold text-red-700 bg-red-200 px-2 py-1 rounded">
-                                  ✗ Your Answer
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                        );
-                      })}
+                    <div className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-semibold ${isCorrect ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
+                      {isCorrect ? 'Correct' : 'Incorrect'}
                     </div>
-
-                    {userAnswer === undefined && (
-                      <div className="ml-11 mt-3 p-3 bg-yellow-50 border-2 border-yellow-300 rounded-lg">
-                        <p className="text-sm font-medium text-yellow-800">⚠ You did not answer this question</p>
-                      </div>
-                    )}
                   </div>
-                );
-              })}
-            </div>
 
-            <div className="flex gap-4 justify-center">
-              <button
-                onClick={handleBackToSubjects}
-                className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
-              >
-                <ArrowLeft className="w-5 h-5" />
-                Back to Subjects
-              </button>
-              <button
-                onClick={handleRestart}
-                className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
-              >
-                <RotateCcw className="w-5 h-5" />
-                Retake Test
-              </button>
-            </div>
+                  <div className="space-y-2 ml-11">
+                    {q.options.map((option, optIdx) => {
+                      const isUserAnswer = userAnswer === optIdx;
+                      const isCorrectAnswer = q.correctAnswer === optIdx;
+
+                      let optionClass = 'bg-white border-2 border-gray-200';
+
+                      if (isCorrectAnswer) {
+                        optionClass = 'bg-green-100 border-2 border-green-400';
+                      } else if (isUserAnswer && !isCorrect) {
+                        optionClass = 'bg-red-100 border-2 border-red-400';
+                      }
+
+                      return (
+                        <div key={optIdx} className={`p-3 rounded-lg ${optionClass}`}>
+                          <div className="flex items-center gap-2">
+                            <span className="font-semibold text-gray-700">{String.fromCharCode(65 + optIdx)}.</span>
+                            <span className="text-gray-800" dangerouslySetInnerHTML={{ __html: option }}></span>
+                            {isCorrectAnswer && (
+                              <span className="ml-auto text-xs font-semibold text-green-700 bg-green-200 px-2 py-1 rounded">
+                                ✓ Correct Answer
+                              </span>
+                            )}
+                            {isUserAnswer && !isCorrect && (
+                              <span className="ml-auto text-xs font-semibold text-red-700 bg-red-200 px-2 py-1 rounded">
+                                ✗ Your Answer
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {userAnswer === undefined && (
+                    <div className="ml-11 mt-3 p-3 bg-yellow-50 border-2 border-yellow-300 rounded-lg">
+                      <p className="text-sm font-medium text-yellow-800">⚠ You did not answer this question</p>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="flex gap-4 justify-center">
+            <button
+              onClick={handleBackToSubjects}
+              className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
+            >
+              <ArrowLeft className="w-5 h-5" />
+              Back to Subjects
+            </button>
+            <button
+              onClick={handleRestart}
+              className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
+            >
+              <RotateCcw className="w-5 h-5" />
+              Retake Test
+            </button>
           </div>
         </div>
       </div>
+      </div >
     );
   }
 
@@ -531,8 +567,8 @@ export default function OnlineTestApp() {
                   key={idx}
                   onClick={() => handleAnswer(question.id, idx)}
                   className={`w-full text-left p-4 rounded-lg border-2 transition-all ${answers[question.id] === idx
-                      ? 'border-indigo-500 bg-indigo-50'
-                      : 'border-gray-200 hover:border-indigo-300 hover:bg-gray-50'
+                    ? 'border-indigo-500 bg-indigo-50'
+                    : 'border-gray-200 hover:border-indigo-300 hover:bg-gray-50'
                     }`}
                 >
                   <span className="font-medium text-gray-700">{String.fromCharCode(65 + idx)}.</span>{' '}
@@ -575,10 +611,10 @@ export default function OnlineTestApp() {
                     key={q.id}
                     onClick={() => goToQuestion(idx)}
                     className={`w-10 h-10 rounded-lg font-medium transition-all ${idx === currentQuestion
-                        ? 'bg-indigo-600 text-white'
-                        : answers[q.id] !== undefined
-                          ? 'bg-green-100 text-green-700 border-2 border-green-300'
-                          : 'bg-gray-100 text-gray-700 border-2 border-gray-300 hover:border-indigo-300'
+                      ? 'bg-indigo-600 text-white'
+                      : answers[q.id] !== undefined
+                        ? 'bg-green-100 text-green-700 border-2 border-green-300'
+                        : 'bg-gray-100 text-gray-700 border-2 border-gray-300 hover:border-indigo-300'
                       }`}
                   >
                     {idx + 1}
