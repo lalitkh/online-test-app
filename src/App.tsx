@@ -109,6 +109,11 @@ export default function OnlineTestApp() {
     }
   };
 
+  // Trigger MathJax typesetting on state changes
+  useEffect(() => {
+    typesetMath();
+  }, [currentQuestion, testStarted, testSubmitted, questionsData]);
+
   // Load questions when subject is selected
   useEffect(() => {
     if (selectedSubject) {
@@ -128,7 +133,7 @@ export default function OnlineTestApp() {
       setQuestionsData(data);
       setTimeLeft(data.duration);
       setLoading(false);
-      
+
       // Typeset math after questions load
       setTimeout(typesetMath, 100);
     } catch (err) {
@@ -163,11 +168,18 @@ export default function OnlineTestApp() {
       ...prev,
       [questionId]: answerIndex
     }));
+
+    // Auto-advance to next question after a short delay
+    if (currentQuestion < questionsData!.questions.length - 1) {
+      setTimeout(() => {
+        setCurrentQuestion(prev => prev + 1);
+      }, 300); // 300ms delay for visual feedback
+    }
   };
 
   const handleSubmit = (): void => {
     if (!questionsData) return;
-    
+
     let correctCount = 0;
     questionsData.questions.forEach((q) => {
       if (answers[q.id] === q.correctAnswer) {
@@ -193,7 +205,7 @@ export default function OnlineTestApp() {
 
   const handleRestart = (): void => {
     if (!questionsData) return;
-    
+
     setTestStarted(false);
     setCurrentQuestion(0);
     setAnswers({});
@@ -238,10 +250,10 @@ export default function OnlineTestApp() {
                       {subject.name}
                     </h3>
                   </div>
-                  <svg 
-                    className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all" 
-                    fill="none" 
-                    stroke="currentColor" 
+                  <svg
+                    className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all"
+                    fill="none"
+                    stroke="currentColor"
                     viewBox="0 0 24 24"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -359,7 +371,7 @@ export default function OnlineTestApp() {
               {passed ? 'You passed the test!' : 'You need more practice.'}
             </p>
             <p className="text-sm text-gray-500 mb-6">{selectedSubject.name}</p>
-            
+
             <div className="bg-gray-50 rounded-lg p-6 mb-6">
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
@@ -381,7 +393,7 @@ export default function OnlineTestApp() {
               {questionsData.questions.map((q, idx) => {
                 const userAnswer = answers[q.id];
                 const isCorrect = userAnswer === q.correctAnswer;
-                
+
                 return (
                   <div key={q.id} className={`border-2 rounded-xl p-5 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
                     <div className="flex items-start gap-3 mb-4">
@@ -405,15 +417,15 @@ export default function OnlineTestApp() {
                       {q.options.map((option, optIdx) => {
                         const isUserAnswer = userAnswer === optIdx;
                         const isCorrectAnswer = q.correctAnswer === optIdx;
-                        
+
                         let optionClass = 'bg-white border-2 border-gray-200';
-                        
+
                         if (isCorrectAnswer) {
                           optionClass = 'bg-green-100 border-2 border-green-400';
                         } else if (isUserAnswer && !isCorrect) {
                           optionClass = 'bg-red-100 border-2 border-red-400';
                         }
-                        
+
                         return (
                           <div key={optIdx} className={`p-3 rounded-lg ${optionClass}`}>
                             <div className="flex items-center gap-2">
@@ -518,11 +530,10 @@ export default function OnlineTestApp() {
                 <button
                   key={idx}
                   onClick={() => handleAnswer(question.id, idx)}
-                  className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
-                    answers[question.id] === idx
+                  className={`w-full text-left p-4 rounded-lg border-2 transition-all ${answers[question.id] === idx
                       ? 'border-indigo-500 bg-indigo-50'
                       : 'border-gray-200 hover:border-indigo-300 hover:bg-gray-50'
-                  }`}
+                    }`}
                 >
                   <span className="font-medium text-gray-700">{String.fromCharCode(65 + idx)}.</span>{' '}
                   <span dangerouslySetInnerHTML={{ __html: option }}></span>
@@ -538,7 +549,7 @@ export default function OnlineTestApp() {
               >
                 Previous
               </button>
-              
+
               {currentQuestion === questionsData.questions.length - 1 ? (
                 <button
                   onClick={handleSubmit}
@@ -563,13 +574,12 @@ export default function OnlineTestApp() {
                   <button
                     key={q.id}
                     onClick={() => goToQuestion(idx)}
-                    className={`w-10 h-10 rounded-lg font-medium transition-all ${
-                      idx === currentQuestion
+                    className={`w-10 h-10 rounded-lg font-medium transition-all ${idx === currentQuestion
                         ? 'bg-indigo-600 text-white'
                         : answers[q.id] !== undefined
-                        ? 'bg-green-100 text-green-700 border-2 border-green-300'
-                        : 'bg-gray-100 text-gray-700 border-2 border-gray-300 hover:border-indigo-300'
-                    }`}
+                          ? 'bg-green-100 text-green-700 border-2 border-green-300'
+                          : 'bg-gray-100 text-gray-700 border-2 border-gray-300 hover:border-indigo-300'
+                      }`}
                   >
                     {idx + 1}
                   </button>
