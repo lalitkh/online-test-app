@@ -53,8 +53,36 @@ const subjects: Subject[] = [
     color: ''
   },
   {
+    id: 'dcl_iq_mock1',
+    name: 'DCL IQ Mock Test 1',
+    questionsFile: 'dcl_iq_mock1.json',
+    icon: '',
+    color: ''
+  },
+  {
+    id: 'dcl_iq_mock2',
+    name: 'DCL IQ Mock Test 2',
+    questionsFile: 'dcl_iq_mock2.json',
+    icon: '',
+    color: ''
+  },
+  {
+    id: 'dcl_iq_mock3',
+    name: 'DCL IQ Mock Test 3',
+    questionsFile: 'dcl_iq_mock3.json',
+    icon: '',
+    color: ''
+  },
+  {
+    id: 'dcl_iq_mock4',
+    name: 'DCL IQ Mock Test 4',
+    questionsFile: 'dcl_iq_mock4.json',
+    icon: '',
+    color: ''
+  },
+  {
     id: 'dcl_model_test',
-    name: 'DCL Model Test',
+    name: 'DCL IQ Model Test',
     questionsFile: 'dcl_model_test.json',
     icon: '',
     color: ''

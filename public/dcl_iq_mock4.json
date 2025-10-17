@@ -1,0 +1,846 @@
+{
+    "title": "DCL IQ Mock-4",
+    "duration": 3600,
+    "questions": [
+        {
+            "id": 151,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'Human Skin' called?",
+            "options": [
+                "Dermatology",
+                "Ecology",
+                "Chemistry",
+                "Physics"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 152,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'Properties of Matter, Forces and Energy' called?",
+            "options": [
+                "Mycology",
+                "Ecology",
+                "Chemistry",
+                "Physics"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 153,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'Matter and their reactions with one another' called?",
+            "options": [
+                "Chemistry",
+                "Mycology",
+                "Ecology",
+                "Earth Science"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 154,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'How living things live together' called?",
+            "options": [
+                "Ecology",
+                "Numismatics",
+                "Mycology",
+                "Earth Science"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 155,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'Fungi' called?",
+            "options": [
+                "Earth Science",
+                "Virology",
+                "Numismatics",
+                "Mycology"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 156,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'Earth and Space' called?",
+            "options": [
+                "Earth Science",
+                "Numismatics",
+                "Geography",
+                "Astronomy"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 157,
+            "topic": "Branch of Science",
+            "question": "What is the study of 'Coins' called?",
+            "options": [
+                "Numismatics",
+                "Mycology",
+                "Chemistry",
+                "Physics"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 158,
+            "topic": "General Facts",
+            "question": "What was the first stamp in the world?",
+            "options": [
+                "Queen Victoria Stamp",
+                "Penny Black",
+                "Mauritius Post Office Stamp",
+                "Penny Blue"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 159,
+            "topic": "General Facts",
+            "question": "Who was the first woman film star nominated to the Rajya Sabha?",
+            "options": [
+                "Shabana Azmi",
+                "Nargis Dutt",
+                "Jaya Bachchan",
+                "Hema Malini"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 160,
+            "topic": "General Facts",
+            "question": "What is the hut made of ice blocks called?",
+            "options": [
+                "Igloo",
+                "Teepee",
+                "Yurt",
+                "Tent"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 161,
+            "topic": "General Facts",
+            "question": "What is the famous film industrial center in America?",
+            "options": [
+                "Silicon Valley",
+                "Broadway",
+                "Wall Street",
+                "Hollywood"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 162,
+            "topic": "General Facts",
+            "question": "What are the Headquarters of the High Court of Kerala?",
+            "options": [
+                "Kozhikode",
+                "Ernakulam",
+                "Thiruvananthapuram",
+                "Kochi"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 163,
+            "topic": "General Facts",
+            "question": "Which is the brightest planet?",
+            "options": [
+                "Mars",
+                "Jupiter",
+                "Venus",
+                "Mercury"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 164,
+            "topic": "General Facts",
+            "question": "What is a child specialist doctor called?",
+            "options": [
+                "Neurologist",
+                "Dermatologist",
+                "Pediatrician",
+                "Cardiologist"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 165,
+            "topic": "General Facts",
+            "question": "What is referred to as 'Liquid Gold'?",
+            "options": [
+                "Water",
+                "Mercury",
+                "Gold",
+                "Petroleum"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 166,
+            "topic": "General Facts",
+            "question": "What is the name of the animal that has chlorophyll?",
+            "options": [
+                "Euglena",
+                "Amoeba",
+                "Paramecium",
+                "Hydra"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 167,
+            "topic": "General Facts",
+            "question": "Which is the largest flower in the world?",
+            "options": [
+                "Titan Arum",
+                "Water Lily",
+                "Rafflesia",
+                "Rose"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 168,
+            "topic": "General Facts",
+            "question": "Which is the Indian festival of colors?",
+            "options": [
+                "Holi",
+                "Diwali",
+                "Christmas",
+                "Eid"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 169,
+            "topic": "General Facts",
+            "question": "Who was the founder of Shantiniketan?",
+            "options": [
+                "Rabindranath Tagore",
+                "Jamshedji Tata",
+                "Mahatma Gandhi",
+                "Rajaram Mohan Roy"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 170,
+            "topic": "General Facts",
+            "question": "Who is known as the father of Renaissance in India?",
+            "options": [
+                "Rajaram Mohan Roy",
+                "Rabindranath Tagore",
+                "Dayanand Saraswati",
+                "Swami Vivekananda"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 171,
+            "topic": "General Facts",
+            "question": "Who is known as the father of iron and steel industries in India?",
+            "options": [
+                "Azim Premji",
+                "Jamshedji Tata",
+                "Rajaram Mohan Roy",
+                "Ratan Tata"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 172,
+            "topic": "General Facts",
+            "question": "Who was the first woman astronaut of the world?",
+            "options": [
+                "Sunita Williams",
+                "Kalpana Chawla",
+                "Valentina Tereshkova",
+                "Sally Ride"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 173,
+            "topic": "General Facts",
+            "question": "Which gas is used by plants during Photosynthesis?",
+            "options": [
+                "Nitrogen",
+                "Hydrogen",
+                "Oxygen",
+                "Carbon dioxide"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 174,
+            "topic": "General Facts",
+            "question": "What is the place where the monks live called?",
+            "options": [
+                "Church",
+                "Temple",
+                "Monastery",
+                "Mosque"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 175,
+            "topic": "General Facts",
+            "question": "What is a person who uses a Palette called?",
+            "options": [
+                "Musician",
+                "Writer",
+                "Sculptor",
+                "Artist"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 176,
+            "topic": "General Facts",
+            "question": "What is a person who collects stamps called?",
+            "options": [
+                "Numismatist",
+                "Archivist",
+                "Philatelist",
+                "Bibliophile"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 177,
+            "topic": "General Facts",
+            "question": "What is a person who dies for a good cause called?",
+            "options": [
+                "Hero",
+                "Martyr",
+                "Soldier",
+                "Rebel"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 178,
+            "topic": "General Facts",
+            "question": "What is a person who represents his country abroad called?",
+            "options": [
+                "Senator",
+                "Minister",
+                "Ambassador",
+                "Diplomat"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 179,
+            "topic": "General Facts",
+            "question": "What is a person who tracks down criminals called?",
+            "options": [
+                "Detective",
+                "Policeman",
+                "Judge",
+                "Lawyer"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 180,
+            "topic": "General Facts",
+            "question": "Who was the freedom fighter known as 'Frontier Gandhi'?",
+            "options": [
+                "Khan Abdul Gaffar Khan",
+                "Mahatma Gandhi",
+                "Sardar Patel",
+                "Subhas Chandra Bose"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 181,
+            "topic": "World Superlatives",
+            "question": "Which is the largest desert in the world?",
+            "options": [
+                "Gobi",
+                "Sahara (Africa)",
+                "Arabian",
+                "Kalahari"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 182,
+            "topic": "World Superlatives",
+            "question": "Which is the largest continent?",
+            "options": [
+                "Europe",
+                "Africa",
+                "Asia",
+                "North America"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 183,
+            "topic": "World Superlatives",
+            "question": "Which is the biggest ocean?",
+            "options": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Arctic Ocean",
+                "Indian Ocean"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 184,
+            "topic": "World Superlatives",
+            "question": "Which is the largest and heaviest reptile?",
+            "options": [
+                "Estuarine Crocodile",
+                "Nile Crocodile",
+                "Alligator",
+                "Komodo Dragon"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 185,
+            "topic": "World Superlatives",
+            "question": "Which is the fastest animal?",
+            "options": [
+                "Tiger",
+                "Lion",
+                "Cheetah",
+                "Peregrine Falcon"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 186,
+            "topic": "World Superlatives",
+            "question": "Which is the longest river in the world?",
+            "options": [
+                "Yangtze",
+                "Amazon",
+                "Nile",
+                "Mississippi"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 187,
+            "topic": "World Superlatives",
+            "question": "Which is the tallest animal?",
+            "options": [
+                "Giraffe",
+                "Rhino",
+                "Hippo",
+                "Elephant"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 188,
+            "topic": "World Superlatives",
+            "question": "Which is the largest bird (land)?",
+            "options": [
+                "Rhea",
+                "Ostrich",
+                "Emu",
+                "Cassowary"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 189,
+            "topic": "World Superlatives",
+            "question": "Which is the largest cell in the human body?",
+            "options": [
+                "Nerve cell",
+                "Skin cell",
+                "Red Blood Cell",
+                "Sperm cell"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 190,
+            "topic": "World Superlatives",
+            "question": "Which is the hardest mineral?",
+            "options": [
+                "Quartz",
+                "Topaz",
+                "Diamond",
+                "Corundum"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 191,
+            "topic": "World Superlatives",
+            "question": "Which is the largest delta in the world?",
+            "options": [
+                "Sundarbans, West Bengal, India",
+                "Amazon Delta",
+                "Ganges Delta",
+                "Nile Delta"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 192,
+            "topic": "World Superlatives",
+            "question": "Which is the biggest museum?",
+            "options": [
+                "British Museum",
+                "Louvre Museum (Paris, France)",
+                "Metropolitan Museum of Art",
+                "Hermitage Museum"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 193,
+            "topic": "World Superlatives",
+            "question": "Which is the largest fresh water lake?",
+            "options": [
+                "Lake Baikal",
+                "Lake Huron",
+                "Lake Superior",
+                "Lake Victoria"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 194,
+            "topic": "World Superlatives",
+            "question": "Which is the longest salt water lake?",
+            "options": [
+                "Caspian Sea",
+                "Great Salt Lake",
+                "Aral Sea",
+                "Dead Sea"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 195,
+            "topic": "World Superlatives",
+            "question": "Which is the highest mountain peak?",
+            "options": [
+                "Lhotse",
+                "K2",
+                "Mount Everest (8848 meters high)",
+                "Kangchenjunga"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 196,
+            "topic": "World Superlatives",
+            "question": "Which is the biggest dam?",
+            "options": [
+                "Hoover Dam",
+                "Three Gorges Dam",
+                "Grand Coulee Dam",
+                "Kariba Dam in Zambia"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 197,
+            "topic": "World Superlatives",
+            "question": "Which is the largest wall?",
+            "options": [
+                "Hadrian's Wall",
+                "Great Wall of China",
+                "Berlin Wall",
+                "Great Zimbabwe Wall"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 198,
+            "topic": "World Superlatives",
+            "question": "Which is the largest peninsula?",
+            "options": [
+                "Indian Peninsula",
+                "Horn of Africa",
+                "Indochina Peninsula",
+                "Arabia"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 199,
+            "topic": "World Superlatives",
+            "question": "Which is the largest fish?",
+            "options": [
+                "Great White Shark",
+                "Whale Shark",
+                "Blue Shark",
+                "Basking Shark"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 200,
+            "topic": "World Superlatives",
+            "question": "Which is the largest residential place?",
+            "options": [
+                "Istana Nurul Imama (Brunei)",
+                "Buckingham Palace",
+                "Versailles Palace",
+                "White House"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 201,
+            "topic": "World Superlatives",
+            "question": "Which is the largest floating restaurant?",
+            "options": [
+                "Rustar Floating Restaurant",
+                "Jumbo Floating Restaurant (Hong Kong)",
+                "Queen Mary",
+                "Bateaux Mouches"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 202,
+            "topic": "World Superlatives",
+            "question": "Which is the largest factory by volume?",
+            "options": [
+                "Volkswagen Factory",
+                "Tesla Gigafactory",
+                "Boeing's Factory (Washington DC, USA)",
+                "Foxconn Factory"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 203,
+            "topic": "World Superlatives",
+            "question": "Which is the largest temple?",
+            "options": [
+                "Angkor Wat (Cambodia)",
+                "Sri Ranganathaswamy Temple",
+                "Karnak Temple",
+                "Prambanan Temple"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 204,
+            "topic": "World Superlatives",
+            "question": "Which is the largest mosque?",
+            "options": [
+                "Istiqlal Mosque",
+                "Sheikh Zayed Mosque",
+                "Masjid-al-Haram (Mecca, Saudi Arabia)",
+                "Al-Masjid an-Nabawi"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 205,
+            "topic": "World Superlatives",
+            "question": "Which is the biggest flying bird?",
+            "options": [
+                "Golden Eagle",
+                "Albatross",
+                "Condor",
+                "Peregrine Falcon"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 206,
+            "topic": "World Superlatives",
+            "question": "Which is the largest transport plane?",
+            "options": [
+                "Lockheed C-5 Galaxy",
+                "Airbus A400M Atlas",
+                "Antonov AN-225",
+                "Boeing C-17 Globemaster"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 207,
+            "topic": "World Superlatives",
+            "question": "Which is the largest library?",
+            "options": [
+                "Library of Congress (Washington DC, USA)",
+                "Russian State Library",
+                "National Library of China",
+                "British Library"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 208,
+            "topic": "World Superlatives",
+            "question": "Which is the largest church?",
+            "options": [
+                "St. Paul's Cathedral",
+                "Notre-Dame",
+                "Milan Cathedral",
+                "Basilica of St. Peter (Vatican, Rome)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 209,
+            "topic": "World Superlatives",
+            "question": "Which is the largest animal without a backbone?",
+            "options": [
+                "Octopus",
+                "Colossal Squid",
+                "Giant Squid",
+                "Jellyfish"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 210,
+            "topic": "World Superlatives",
+            "question": "Which is the longest snake in the world?",
+            "options": [
+                "King Cobra",
+                "Reticulated python",
+                "African Rock Python",
+                "Green Anaconda"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 211,
+            "topic": "World Superlatives",
+            "question": "Which is the largest and heaviest mammal?",
+            "options": [
+                "Sperm Whale",
+                "Blue Whale",
+                "Fin Whale",
+                "African Bush Elephant"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 212,
+            "topic": "World Superlatives",
+            "question": "Which is the largest amphibian?",
+            "options": [
+                "Axolotl",
+                "Hellbender",
+                "Japanese Giant Salamander",
+                "Chinese Giant Salamander"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 213,
+            "topic": "World Superlatives",
+            "question": "What is the most used letter in the English language?",
+            "options": [
+                "T",
+                "S",
+                "E",
+                "A"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 214,
+            "topic": "World Superlatives",
+            "question": "Which is the largest flightless bird?",
+            "options": [
+                "North African Ostrich",
+                "Emu",
+                "Emperor Penguin",
+                "Cassowary"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 215,
+            "topic": "World Superlatives",
+            "question": "Which is the largest insect?",
+            "options": [
+                "Titan Beetle",
+                "Goliath Beetle",
+                "Atlas Moth",
+                "Stick Insect"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 216,
+            "topic": "World Superlatives",
+            "question": "Which is the largest seed?",
+            "options": [
+                "Coconut",
+                "Coco-de-mer",
+                "Baobab Seed",
+                "Avocado Seed"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 217,
+            "topic": "World Superlatives",
+            "question": "Which is the most harvested crop?",
+            "options": [
+                "Rice",
+                "Wheat",
+                "Corn",
+                "Potato"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 218,
+            "topic": "World Superlatives",
+            "question": "Which is the highest cricket ground?",
+            "options": [
+                "Lord's",
+                "Melbourne Cricket Ground",
+                "Chail (Himachal Pradesh)",
+                "Eden Gardens"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 219,
+            "topic": "World Superlatives",
+            "question": "Which is the largest team sport in terms of number of participants per team in a single race/match?",
+            "options": [
+                "Soccer",
+                "The snake boat race of Kerala",
+                "Cricket",
+                "Rugby"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 220,
+            "topic": "World Superlatives",
+            "question": "Which is the deepest ocean in the world?",
+            "options": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Southern Ocean",
+                "Pacific Ocean"
+            ],
+            "correctAnswer": 3
+        }
+    ]
+}
