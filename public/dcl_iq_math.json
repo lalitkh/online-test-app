@@ -7,9 +7,9 @@
             "question": "One more than the smallest four-digit number is —?",
             "options": [
                 "9999",
-                "1000",
+                "10000",
                 "1001",
-                "10000"
+                "10001"
             ],
             "correctAnswer": 2
         },
@@ -26,7 +26,7 @@
         },
         {
             "id": 3,
-            "question": "Successor of 38999 is —?",
+            "question": "Successor of 38099 is —?",
             "options": [
                 "38100",
                 "38998",
@@ -37,9 +37,9 @@
         },
         {
             "id": 4,
-            "question": "How many minutes are there in $$3 \\frac{1}{2}$$ hours?",
+            "question": "How many minutes are there in 35 hours?",
             "options": [
-                "240",
+                "840",
                 "2100",
                 "245",
                 "210"
@@ -48,7 +48,7 @@
         },
         {
             "id": 5,
-            "question": "Rs $$90.75 - \\dots = Rs 0.25$$",
+            "question": "Rs 90.75 - \\dots = Rs 0.25$$",
             "options": [
                 "90.75",
                 "155",

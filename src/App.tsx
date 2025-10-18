@@ -39,11 +39,11 @@ const subjects: Subject[] = [
     name: 'DCL IQ GK-2',
     questionsFile: 'dcl_iq_gk2.json'
   },
-  {
-    id: 'dcl_iq_math',
-    name: 'DCL IQ Math',
-    questionsFile: 'dcl_iq_math.json'
-  },
+  // {
+  //   id: 'dcl_iq_math',
+  //   name: 'DCL IQ Math',
+  //   questionsFile: 'dcl_iq_math.json'
+  // },
   {
     id: 'dcl_iq_mock1',
     name: 'DCL IQ Mock Test 1',
@@ -88,6 +88,11 @@ const subjects: Subject[] = [
     id: 'india_quiz_set1',
     name: 'India Quiz Set 1',
     questionsFile: 'india_quiz_set1.json'
+  },
+  {
+    id: 'india_quiz_set2',
+    name: 'India Quiz Set 2',
+    questionsFile: 'india_quiz_set2.json'
   }
   // ,
   // {
