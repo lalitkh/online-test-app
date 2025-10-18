@@ -26,96 +26,75 @@ interface Subject {
   id: string;
   name: string;
   questionsFile: string;
-  icon: string;
-  color: string;
 }
 
 const subjects: Subject[] = [
   {
     id: 'dcl_iq_gk1',
     name: 'DCL IQ GK-1',
-    questionsFile: 'dcl_iq_gk1.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_gk1.json'
   },
   {
     id: 'dcl_iq_gk2',
     name: 'DCL IQ GK-2',
-    questionsFile: 'dcl_iq_gk2.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_gk2.json'
   },
   {
     id: 'dcl_iq_math',
     name: 'DCL IQ Math',
-    questionsFile: 'dcl_iq_math.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_math.json'
   },
   {
     id: 'dcl_iq_mock1',
     name: 'DCL IQ Mock Test 1',
-    questionsFile: 'dcl_iq_mock1.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_mock1.json'
   },
   {
     id: 'dcl_iq_mock2',
     name: 'DCL IQ Mock Test 2',
-    questionsFile: 'dcl_iq_mock2.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_mock2.json'
   },
   {
     id: 'dcl_iq_mock3',
     name: 'DCL IQ Mock Test 3',
-    questionsFile: 'dcl_iq_mock3.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_mock3.json'
   },
   {
     id: 'dcl_iq_mock4',
     name: 'DCL IQ Mock Test 4',
-    questionsFile: 'dcl_iq_mock4.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_iq_mock4.json'
   },
   {
     id: 'dcl_model_test',
     name: 'DCL IQ Model Test',
-    questionsFile: 'dcl_model_test.json',
-    icon: '',
-    color: ''
+    questionsFile: 'dcl_model_test.json'
   },
   {
     id: 'kisa_set1',
     name: 'KISA Set-1',
-    questionsFile: 'kisa_set1.json',
-    icon: '',
-    color: ''
+    questionsFile: 'kisa_set1.json'
   },
   {
     id: 'kisa_set2',
     name: 'KISA Set-2',
-    questionsFile: 'kisa_set2.json',
-    icon: '',
-    color: ''
+    questionsFile: 'kisa_set2.json'
   },
   {
     id: 'kisa_set3',
     name: 'KISA Set-3',
-    questionsFile: 'kisa_set3.json',
-    icon: '',
-    color: ''
-  }
-  ,
+    questionsFile: 'kisa_set3.json'
+  },
   {
-    id: 'sample',
-    name: 'Sample Test',
-    questionsFile: 'sample.json',
-    icon: '',
-    color: ''
+    id: 'india_quiz_set1',
+    name: 'India Quiz Set 1',
+    questionsFile: 'india_quiz_set1.json'
   }
+  // ,
+  // {
+  //   id: 'sample',
+  //   name: 'Sample Test',
+  //   questionsFile: 'sample.json'
+  // }
 ];
 
 export default function OnlineTestApp() {
@@ -203,13 +182,6 @@ export default function OnlineTestApp() {
 
       // Otherwise, select the new option
       newAnswers[questionId] = answerIndex;
-
-      // Auto-advance to next question after a short delay (only if answered)
-      if (currentQuestion < questionsData!.questions.length - 1) {
-        setTimeout(() => {
-          setCurrentQuestion(prev => prev + 1);
-        }, 300);
-      }
 
       return newAnswers;
     });
@@ -453,92 +425,92 @@ export default function OnlineTestApp() {
               </div>
             )}
 
-          <div className="space-y-6 mb-6 text-left max-h-96 overflow-y-auto">
-            {questionsData.questions.map((q, idx) => {
-              const userAnswer = answers[q.id];
-              const isCorrect = userAnswer === q.correctAnswer;
+            <div className="space-y-6 mb-6 text-left max-h-96 overflow-y-auto">
+              {questionsData.questions.map((q, idx) => {
+                const userAnswer = answers[q.id];
+                const isCorrect = userAnswer === q.correctAnswer;
 
-              return (
-                <div key={q.id} id={`question-${idx}`} className={`border-2 rounded-xl p-5 scroll-mt-4 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
-                  <div className="flex items-start gap-3 mb-4">
-                    <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}>
-                      {idx + 1}
-                    </span>
-                    <div className="flex-1">
-                      {q.topic && (
-                        <span className="inline-block text-xs font-semibold px-2 py-1 bg-indigo-100 text-indigo-700 rounded mb-2">
-                          {q.topic}
-                        </span>
-                      )}
-                      <p className="text-lg font-semibold text-gray-800" dangerouslySetInnerHTML={{ __html: q.question }}></p>
+                return (
+                  <div key={q.id} id={`question-${idx}`} className={`border-2 rounded-xl p-5 scroll-mt-4 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
+                    <div className="flex items-start gap-3 mb-4">
+                      <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold ${isCorrect ? 'bg-green-500' : 'bg-red-500'}`}>
+                        {idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        {q.topic && (
+                          <span className="inline-block text-xs font-semibold px-2 py-1 bg-indigo-100 text-indigo-700 rounded mb-2">
+                            {q.topic}
+                          </span>
+                        )}
+                        <p className="text-lg font-semibold text-gray-800" dangerouslySetInnerHTML={{ __html: q.question }}></p>
+                      </div>
+                      <div className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-semibold ${isCorrect ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
+                        {isCorrect ? 'Correct' : 'Incorrect'}
+                      </div>
                     </div>
-                    <div className={`flex-shrink-0 px-3 py-1 rounded-full text-xs font-semibold ${isCorrect ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
-                      {isCorrect ? 'Correct' : 'Incorrect'}
-                    </div>
-                  </div>
 
-                  <div className="space-y-2 ml-11">
-                    {q.options.map((option, optIdx) => {
-                      const isUserAnswer = userAnswer === optIdx;
-                      const isCorrectAnswer = q.correctAnswer === optIdx;
+                    <div className="space-y-2 ml-11">
+                      {q.options.map((option, optIdx) => {
+                        const isUserAnswer = userAnswer === optIdx;
+                        const isCorrectAnswer = q.correctAnswer === optIdx;
 
-                      let optionClass = 'bg-white border-2 border-gray-200';
+                        let optionClass = 'bg-white border-2 border-gray-200';
 
-                      if (isCorrectAnswer) {
-                        optionClass = 'bg-green-100 border-2 border-green-400';
-                      } else if (isUserAnswer && !isCorrect) {
-                        optionClass = 'bg-red-100 border-2 border-red-400';
-                      }
+                        if (isCorrectAnswer) {
+                          optionClass = 'bg-green-100 border-2 border-green-400';
+                        } else if (isUserAnswer && !isCorrect) {
+                          optionClass = 'bg-red-100 border-2 border-red-400';
+                        }
 
-                      return (
-                        <div key={optIdx} className={`p-3 rounded-lg ${optionClass}`}>
-                          <div className="flex items-center gap-2">
-                            <span className="font-semibold text-gray-700">{String.fromCharCode(65 + optIdx)}.</span>
-                            <span className="text-gray-800" dangerouslySetInnerHTML={{ __html: option }}></span>
-                            {isCorrectAnswer && (
-                              <span className="ml-auto text-xs font-semibold text-green-700 bg-green-200 px-2 py-1 rounded">
-                                ✓ Correct Answer
-                              </span>
-                            )}
-                            {isUserAnswer && !isCorrect && (
-                              <span className="ml-auto text-xs font-semibold text-red-700 bg-red-200 px-2 py-1 rounded">
-                                ✗ Your Answer
-                              </span>
-                            )}
+                        return (
+                          <div key={optIdx} className={`p-3 rounded-lg ${optionClass}`}>
+                            <div className="flex items-center gap-2">
+                              <span className="font-semibold text-gray-700">{String.fromCharCode(65 + optIdx)}.</span>
+                              <span className="text-gray-800" dangerouslySetInnerHTML={{ __html: option }}></span>
+                              {isCorrectAnswer && (
+                                <span className="ml-auto text-xs font-semibold text-green-700 bg-green-200 px-2 py-1 rounded">
+                                  ✓ Correct Answer
+                                </span>
+                              )}
+                              {isUserAnswer && !isCorrect && (
+                                <span className="ml-auto text-xs font-semibold text-red-700 bg-red-200 px-2 py-1 rounded">
+                                  ✗ Your Answer
+                                </span>
+                              )}
+                            </div>
                           </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-
-                  {userAnswer === undefined && (
-                    <div className="ml-11 mt-3 p-3 bg-yellow-50 border-2 border-yellow-300 rounded-lg">
-                      <p className="text-sm font-medium text-yellow-800">⚠ You did not answer this question</p>
+                        );
+                      })}
                     </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
 
-          <div className="flex gap-4 justify-center">
-            <button
-              onClick={handleBackToSubjects}
-              className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
-            >
-              <ArrowLeft className="w-5 h-5" />
-              Back to Subjects
-            </button>
-            <button
-              onClick={handleRestart}
-              className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
-            >
-              <RotateCcw className="w-5 h-5" />
-              Retake Test
-            </button>
+                    {userAnswer === undefined && (
+                      <div className="ml-11 mt-3 p-3 bg-yellow-50 border-2 border-yellow-300 rounded-lg">
+                        <p className="text-sm font-medium text-yellow-800">⚠ You did not answer this question</p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="flex gap-4 justify-center">
+              <button
+                onClick={handleBackToSubjects}
+                className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
+              >
+                <ArrowLeft className="w-5 h-5" />
+                Back to Subjects
+              </button>
+              <button
+                onClick={handleRestart}
+                className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors inline-flex items-center gap-2"
+              >
+                <RotateCcw className="w-5 h-5" />
+                Retake Test
+              </button>
+            </div>
           </div>
         </div>
-      </div>
       </div >
     );
   }
@@ -546,6 +518,12 @@ export default function OnlineTestApp() {
   // Test page
   const question = questionsData.questions[currentQuestion];
   const progress = ((currentQuestion + 1) / questionsData.questions.length) * 100;
+
+  // Safety check: if question doesn't exist, reset to first question
+  if (!question) {
+    setCurrentQuestion(0);
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">

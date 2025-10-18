@@ -1,0 +1,606 @@
+{
+    "title": "India Quiz Set 1",
+    "duration": 3600,
+    "questions": [
+        {
+            "id": 1,
+            "topic": "Heritage & Sites",
+            "question": "Which of the following is a UNESCO World Heritage Site in West Bengal known for its unique ecology and the Royal Bengal Tiger?",
+            "options": [
+                "Victoria Memorial",
+                "Hampi Monuments",
+                "Sundarbans National Park",
+                "Nalanda Mahavihara"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 2,
+            "topic": "Heritage & Sites",
+            "question": "The Kakatiya Rudreshwara Temple, a recently inscribed UNESCO site, is located in which state?",
+            "options": [
+                "Andhra Pradesh",
+                "Telangana",
+                "Karnataka",
+                "Odisha"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 3,
+            "topic": "Heritage & Sites",
+            "question": "The Kabartal Wetland, also known as Kanwar Jheel, which was designated as a Ramsar Site in 2020, is located in:",
+            "options": [
+                "West Bengal",
+                "Bihar",
+                "Chhattisgarh",
+                "Tripura"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 4,
+            "topic": "Heritage & Sites",
+            "question": "Kolleru Lake, one of the largest freshwater lakes in India, is a designated Ramsar Site situated between the deltas of the Krishna and Godavari rivers in:",
+            "options": [
+                "Telangana",
+                "Andhra Pradesh",
+                "Tamil Nadu",
+                "Maharashtra"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 5,
+            "topic": "Heritage & Sites",
+            "question": "Which Ramsar Site is the only major natural wetland in the mountainous state of Mizoram?",
+            "options": [
+                "Pala Wetland",
+                "Deepor Beel",
+                "Loktak Lake",
+                "Rudrasagar Lake"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "topic": "Architecture Marvels",
+            "question": "The Charminar, a magnificent structure built in 1591, is the global icon of which city in Telangana?",
+            "options": [
+                "Warangal",
+                "Secunderabad",
+                "Hyderabad",
+                "Nizamabad"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 7,
+            "topic": "Architecture Marvels",
+            "question": "The architectural style of the famous Terracotta Temples of Bishnupur, West Bengal, is characterized by the influence of:",
+            "options": [
+                "Dravidian style",
+                "Chola style",
+                "Kalinga style",
+                "Bengal's indigenous Hut-style roofs"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 8,
+            "topic": "Architecture Marvels",
+            "question": "The Hemis Monastery, one of the largest and wealthiest Buddhist monasteries, is a key architectural feature of which Union Territory?",
+            "options": [
+                "Sikkim",
+                "Ladakh",
+                "Arunachal Pradesh",
+                "Himachal Pradesh"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 9,
+            "topic": "Architecture Marvels",
+            "question": "Which Delhi monument features a rust-resistant iron pillar that dates back to the Gupta period (4th Century CE)?",
+            "options": [
+                "Red Fort",
+                "Qutb Minar Complex",
+                "Humayun's Tomb",
+                "Purana Qila"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 10,
+            "topic": "Architecture Marvels",
+            "question": "The Lotus Temple, a Baháʼí House of Worship known for its distinct flower-like structure, is located in:",
+            "options": [
+                "Bhopal",
+                "Ahmedabad",
+                "New Delhi",
+                "Jaipur"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 11,
+            "topic": "Seals and Coins",
+            "question": "The oldest known seals in India are associated with which civilization, often depicting a unicorn or Brahmani bull?",
+            "options": [
+                "Vedic Period",
+                "Mauryan Empire",
+                "Indus Valley Civilization",
+                "Gupta Empire"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 12,
+            "topic": "Seals and Coins",
+            "question": "The 'Punch-marked coins' (Karshapana) are considered the earliest indigenous coins of India, widely circulating during the time of the:",
+            "options": [
+                "Chola Dynasty",
+                "Magadha Empire (Bihar region)",
+                "Mughal Empire",
+                "Satavahana Dynasty (Andhra/Telangana region)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 13,
+            "topic": "Seals and Coins",
+            "question": "The coinage of the Gupta Empire, flourishing in the Bihar region, is highly noted for its magnificent gold coins, often depicting the ruler performing a:",
+            "options": [
+                "Yagna (Sacrifice)",
+                "Horse-sacrifice (Ashvamedha)",
+                "Pooja (Worship)",
+                "Hunting scene"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 14,
+            "topic": "Seals and Coins",
+            "question": "The seals discovered from the excavation of the ancient university of Nalanda, primarily in Bihar, are important as they often bear the emblem of the:",
+            "options": [
+                "Lotus",
+                "Wheel (Dharma Chakra)",
+                "Elephant",
+                "Lion"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 15,
+            "topic": "Architecture Marvels",
+            "question": "The **Golconda Fort** and the **Qutb Shahi Tombs**, key features of early Deccan/Indo-Islamic architecture, are located in:",
+            "options": [
+                "Andhra Pradesh",
+                "Telangana",
+                "Karnataka",
+                "Maharashtra"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 16,
+            "topic": "Painting & Tribal Art",
+            "question": "**Kalamkari**, a traditional style of hand-painted or block-printed cotton textile, is historically associated with which state?",
+            "options": [
+                "Telangana",
+                "Andhra Pradesh",
+                "Karnataka",
+                "Bihar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 17,
+            "topic": "Painting & Tribal Art",
+            "question": "**Kalighat Painting** is a style of painting on cloth or paper that originated in the 19th century near the Kalighat Temple of which city?",
+            "options": [
+                "Puri",
+                "Varanasi",
+                "Kolkata",
+                "Bodh Gaya"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 18,
+            "topic": "Painting & Tribal Art",
+            "question": "The tribal art of **Warli Painting**, characterized by simple geometric shapes of the human body, is prominent in the tribal areas of:",
+            "options": [
+                "Madhya Pradesh",
+                "Maharashtra and Dadar & Nagar Haveli",
+                "Chhattisgarh",
+                "Gujarat"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 19,
+            "topic": "Painting & Tribal Art",
+            "question": "Which painting style from Bihar, historically done by women on walls and floors, features geometric patterns and stylized natural motifs?",
+            "options": [
+                "Pattachitra",
+                "Mithila (Madhubani)",
+                "Manjusha Art",
+                "Tanjore Painting"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 20,
+            "topic": "Painting & Tribal Art",
+            "question": "Traditional wall paintings in Chhattisgarh are deeply connected to the celebrations and rituals of the local:",
+            "options": [
+                "Mughal courts",
+                "Vaishnavite cults",
+                "Tribal communities",
+                "Buddhist monasteries"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 21,
+            "topic": "Craft & Textiles",
+            "question": "**Pochampally Ikat**, known for its geometric designs created by the double Ikat weaving process, originates from which state?",
+            "options": [
+                "Andhra Pradesh",
+                "Telangana",
+                "Odisha",
+                "Gujarat"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 22,
+            "topic": "Craft & Textiles",
+            "question": "**Kantha**, a form of running stitch embroidery, is a renowned traditional craft primarily practiced in:",
+            "options": [
+                "Bihar and Jharkhand",
+                "Tripura and Mizoram",
+                "West Bengal and Bangladesh",
+                "Delhi and Haryana"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 23,
+            "topic": "Craft & Textiles",
+            "question": "Which type of elaborate metal handicraft, known for its intricate designs using thin silver wire, is prominently associated with Karimnagar in Telangana?",
+            "options": [
+                "Bidriware",
+                "Filigree",
+                "Brassware",
+                "Dhokra"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 24,
+            "topic": "Craft & Textiles",
+            "question": "The traditional art of making toys from the lightweight **'tella poniki'** wood, known as **Kondapalli Dolls**, is famous in which state?",
+            "options": [
+                "Kerala",
+                "Andhra Pradesh",
+                "Tamil Nadu",
+                "Telangana"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 25,
+            "topic": "Craft & Textiles",
+            "question": "The beautiful Mizo shawls, such as **Puanchei** and **Kawrchei**, are a famous textile craft of:",
+            "options": [
+                "Meghalaya",
+                "Mizoram",
+                "Tripura",
+                "Ladakh"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 26,
+            "topic": "Puppetry & Tribal Art",
+            "question": "The **Tholu Bommalata** is a form of traditional **shadow puppetry** originating from the region of:",
+            "options": [
+                "Karnataka",
+                "Kerala",
+                "Andhra Pradesh/Telangana",
+                "Maharashtra"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 27,
+            "topic": "Puppetry & Tribal Art",
+            "question": "Which style of puppetry uses puppets supported by a rod from below, like the **Yampuri** puppets of Bihar?",
+            "options": [
+                "String Puppetry",
+                "Glove Puppetry",
+                "Rod Puppetry",
+                "Shadow Puppetry"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 28,
+            "topic": "Puppetry & Tribal Art",
+            "question": "The main focus of the **Bastar Iron Craft** (Dhokra metal art) from Chhattisgarh is often on depicting:",
+            "options": [
+                "Geometric abstract forms",
+                "Mythological deities (Hindu)",
+                "War scenes and royalty",
+                "Tribal gods, animals, and folk life"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 29,
+            "topic": "Puppetry & Tribal Art",
+            "question": "The **Gond Art** from the Bastar region of Chhattisgarh is known for its distinctive style using intricate patterns of:",
+            "options": [
+                "Geometric lines",
+                "Dot and dash motifs",
+                "Floral borders",
+                "Abstract forms"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 30,
+            "topic": "Puppetry & Tribal Art",
+            "question": "The use of **bamboo and cane crafts** is a widespread traditional art form in which set of North Eastern states?",
+            "options": [
+                "Ladakh and J&K",
+                "Delhi and Bihar",
+                "Meghalaya, Mizoram, and Tripura",
+                "Andhra Pradesh and Telangana"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 31,
+            "topic": "Art & Dance Forms",
+            "question": "**Kuchipudi**, a classical Indian dance form, originated in the village of Kuchipudi in which region?",
+            "options": [
+                "Karnataka",
+                "Andhra Pradesh",
+                "Tamil Nadu",
+                "Kerala"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 32,
+            "topic": "Art & Dance Forms",
+            "question": "The **Nongkrem Dance** is the main religious dance festival of the Khasi tribe, celebrated annually in:",
+            "options": [
+                "Mizoram",
+                "Meghalaya",
+                "Tripura",
+                "Nagaland"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 33,
+            "topic": "Art & Dance Forms",
+            "question": "**Raut Nacha** is a folk dance performed primarily by the Yadava/Yadu community of Chhattisgarh, known for its theme related to:",
+            "options": [
+                "Lord Shiva's cosmic dance",
+                "The mythological war of the Pandavas",
+                "Krishna's dance over the serpent Kaliya",
+                "Harvest celebration"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 34,
+            "topic": "Music",
+            "question": "Which city, due to its historical importance as a capital for various empires, is often considered a crucial center for the development of the **Delhi Gharana** of Hindustani classical music?",
+            "options": [
+                "Lucknow",
+                "Rampur",
+                "Agra",
+                "Delhi"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 35,
+            "topic": "Festivals & Fairs",
+            "question": "The **Chapchar Kut** is the biggest and most important festival of the Mizo people, celebrated after the completion of the process of:",
+            "options": [
+                "Rice harvesting",
+                "Jhum (shifting) cultivation",
+                "Construction of new houses",
+                "Worshipping the river"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 36,
+            "topic": "Festivals & Fairs",
+            "question": "**Kharchi Puja**, the 'Worship of the Earth', is a major festival involving 14 deities, celebrated annually in which state?",
+            "options": [
+                "Assam",
+                "Sikkim",
+                "Tripura",
+                "Meghalaya"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 37,
+            "topic": "Festivals & Fairs",
+            "question": "The **Bonalu** festival, dedicated to the Goddess Mahakali, is a prominent cultural event celebrated primarily in the monsoon months in:",
+            "options": [
+                "Andhra Pradesh",
+                "Telangana",
+                "Tamil Nadu",
+                "Karnataka"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 38,
+            "topic": "Personalities & Literature",
+            "question": "Which medieval Indo-Persian poet and scholar, often credited with inventing the **Sitar** and developing **Khayal** music, is a key historical personality of Delhi?",
+            "options": [
+                "Mirza Ghalib",
+                "Amir Khusro",
+                "Kabir",
+                "Tulsidas"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 39,
+            "topic": "Personalities & Literature",
+            "question": "The poet and philosopher **Vallabha**, who propagated the Shuddha Advaita (Pure Non-Dualism) school of Vedanta, is a major historical personality associated with which region?",
+            "options": [
+                "Assam",
+                "West Bengal",
+                "Telangana/Andhra Pradesh",
+                "Chhattisgarh"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 40,
+            "topic": "Personalities & Literature",
+            "question": "**Soso Tham** is a highly respected literary personality, known for his poetry and prose in the Khasi language, from which state?",
+            "options": [
+                "Nagaland",
+                "Meghalaya",
+                "Manipur",
+                "Tripura"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 41,
+            "topic": "Animals & Birds",
+            "question": "The **Snow Leopard**, a vulnerable species, is the State Animal of which high-altitude Union Territory where the Hemis National Park is located?",
+            "options": [
+                "Sikkim",
+                "Ladakh",
+                "Jammu & Kashmir",
+                "Uttarakhand"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 42,
+            "topic": "Animals & Birds",
+            "question": "The **Wild Water Buffalo** is the State Animal of Chhattisgarh, primarily found in which of its National Parks?",
+            "options": [
+                "Kanger Ghati NP",
+                "Guru Ghasidas NP",
+                "Indravati National Park",
+                "Achanakmar Tiger Reserve"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 43,
+            "topic": "Animals & Birds",
+            "question": "The **Bastar Hill Myna**, known for its unique ability to mimic human speech, is the State Bird of:",
+            "options": [
+                "Meghalaya",
+                "Chhattisgarh",
+                "Bihar",
+                "Telangana"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 44,
+            "topic": "Animals & Birds",
+            "question": "The **Hoolock Gibbon**, the only ape found in India, is protected in wildlife sanctuaries like Dampa Tiger Reserve in:",
+            "options": [
+                "Mizoram",
+                "Manipur",
+                "Arunachal Pradesh",
+                "Tripura"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "topic": "Animals & Birds",
+            "question": "The endangered **Kashmir Stag (Hangul)** is the State Animal of Jammu & Kashmir and is confined primarily to the protected area of:",
+            "options": [
+                "Gulmarg Wildlife Sanctuary",
+                "Dachigam National Park",
+                "Overa Aru Wildlife Sanctuary",
+                "Kishtwar National Park"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 46,
+            "topic": "Forests & Rivers",
+            "question": "Which river forms the central lifeline of Ladakh, flowing through its valleys and near its capital Leh?",
+            "options": [
+                "Chenab River",
+                "Sutlej River",
+                "Ganga River",
+                "Indus River"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 47,
+            "topic": "Forests & Rivers",
+            "question": "The **Mahanadi River**, one of India's major peninsular rivers, flows predominantly through the state of:",
+            "options": [
+                "Bihar",
+                "Andhra Pradesh",
+                "Chhattisgarh",
+                "West Bengal"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 48,
+            "topic": "Forests & Rivers",
+            "question": "The **Salty Mangrove Forests** are the characteristic vegetation of which Ramsar site in West Bengal?",
+            "options": [
+                "East Calcutta Wetlands",
+                "Sundarbans Wetland",
+                "Sunderbans Wildlife Sanctuary",
+                "Jaldapara National Park"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 49,
+            "topic": "Flowers & Current Affairs",
+            "question": "The **Pala Wetland** in Mizoram was designated as a Ramsar Site in 2021, highlighting the region's focus on conserving:",
+            "options": [
+                "Alpine grasslands",
+                "Urban wastewater systems",
+                "Freshwater swamps and lakes",
+                "Desert oasis"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 50,
+            "topic": "Culture & Current Affairs",
+            "question": "In a recent cultural update (2024), which state's traditional sweet, the **'Silao Khaja'**, received a Geographical Indication (GI) tag?",
+            "options": [
+                "Telangana",
+                "West Bengal",
+                "Bihar",
+                "Andhra Pradesh"
+            ],
+            "correctAnswer": 2
+        }
+    ]
+}

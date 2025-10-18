@@ -519,18 +519,6 @@
       "correctAnswer": 3
     },
     {
-      "id": 144,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Which arrow comes next?",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 1
-    },
-    {
       "id": 145,
       "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
       "question": "Which one of the given responses would be a meaningful order of the following: 1. Sentence 2. Word 3. Chapter 4. Phrase 5. Paragraph",
@@ -539,18 +527,6 @@
         "2,3,5,4,1",
         "3,5,1,4,2",
         "1,3,2,4,5"
-      ],
-      "correctAnswer": 2
-    },
-    {
-      "id": 146,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Which of the following diagrams indicates the best relation between Furniture, Chairs and Tables?",
-      "options": [
-        "(a)",
-        "(b)",
-        "(c)",
-        "(d)"
       ],
       "correctAnswer": 2
     },
@@ -567,42 +543,6 @@
       "correctAnswer": 2
     },
     {
-      "id": 148,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Choose the picture that would go in the empty box so that the two bottom pictures are related in the same way as the top two are related.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": 149,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Identify the figure that completes the pattern.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 3
-    },
-    {
-      "id": 150,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 2
-    },
-    {
       "id": 151,
       "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
       "question": "Find the odd man out : 2, 5, 10, 50, 500, 5000.",
@@ -613,18 +553,6 @@
         "5000"
       ],
       "correctAnswer": 3
-    },
-    {
-      "id": 152,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Choose the figure which is different from the rest.",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 0
     },
     {
       "id": 153,
@@ -675,18 +603,6 @@
       "correctAnswer": 0
     },
     {
-      "id": 157,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Which number completes the puzzle?",
-      "options": [
-        "23",
-        "9",
-        "19",
-        "31"
-      ],
-      "correctAnswer": 2
-    },
-    {
       "id": 158,
       "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
       "question": "Mara runs faster than Gail. Lily runs faster than Mara. Gail runs faster than Lily. If the first two statements are true, the third statement is ______.",
@@ -709,18 +625,6 @@
         "All of these"
       ],
       "correctAnswer": 3
-    },
-    {
-      "id": 160,
-      "topic": "Aptitude, Analytical, Critical Thinking and Logical Reasoning",
-      "question": "Which number replaces question mark?",
-      "options": [
-        "7",
-        "9",
-        "6",
-        "114"
-      ],
-      "correctAnswer": 2
     }
   ]
 }
