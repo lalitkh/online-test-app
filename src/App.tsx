@@ -39,6 +39,16 @@ const subjects: Subject[] = [
     name: 'DCL IQ GK-2',
     questionsFile: 'dcl_iq_gk2.json'
   },
+  {
+    id: 'dcl_iq_gk3',
+    name: 'DCL IQ GK-3',
+    questionsFile: 'dcl_iq_gk3.json'
+  },
+  {
+    id: 'dcl_iq_gk4',
+    name: 'DCL IQ GK-4',
+    questionsFile: 'dcl_iq_gk4.json'
+  },
   // {
   //   id: 'dcl_iq_math',
   //   name: 'DCL IQ Math',
