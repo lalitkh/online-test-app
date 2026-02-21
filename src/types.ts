@@ -17,6 +17,7 @@ export interface Subject {
   id: string;
   name: string;
   questionsFile: string;
+  isActive?: boolean;
 }
 
 // Declare MathJax global
