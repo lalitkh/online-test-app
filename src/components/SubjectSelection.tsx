@@ -1,70 +1,99 @@
 import { Subject } from '../types';
 import { getTestVisibility } from '../hooks/useAdminSettings';
+import { Settings } from 'lucide-react';
 
 interface SubjectSelectionProps {
   subjects: Subject[];
   onSelect: (subject: Subject) => void;
   onAdminOpen: () => void;
+  onHistoryOpen?: () => void;
 }
 
-export default function SubjectSelection({ subjects, onSelect, onAdminOpen }: SubjectSelectionProps) {
+const CARD_COLORS = [
+  'from-purple-400 to-pink-400',
+  'from-blue-400 to-cyan-400',
+  'from-green-400 to-emerald-400',
+  'from-orange-400 to-yellow-400',
+  'from-pink-400 to-rose-400',
+  'from-indigo-400 to-blue-400',
+  'from-teal-400 to-green-400',
+  'from-amber-400 to-orange-400',
+];
+
+const CARD_EMOJIS = ['📚', '🧠', '🔬', '🎯', '🌟', '📝', '💡', '🎓'];
+
+export default function SubjectSelection({ subjects, onSelect, onAdminOpen, onHistoryOpen }: SubjectSelectionProps) {
   const visibleSubjects = subjects.filter((s) => getTestVisibility(s.id, s.isActive ?? true));
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full">
+    <div className="bg-fun flex items-center justify-center p-4">
+      <div className="card-fun p-8 max-w-3xl w-full animate-pop-in">
+        {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Online Test</h1>
+          <div className="text-5xl mb-3 animate-bounce-slow">🏆</div>
+          <h1 className="text-4xl font-black bg-gradient-to-r from-candy-purple via-candy-pink to-candy-orange bg-clip-text text-transparent">
+            Quiz Champ!
+          </h1>
+          <p className="text-gray-500 mt-2 font-semibold">Pick a quiz and show what you know!</p>
         </div>
 
         {visibleSubjects.length === 0 ? (
-          <div className="text-center py-10 text-gray-500">
-            <svg className="w-12 h-12 mx-auto mb-3 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            <p className="font-medium">No tests available at the moment.</p>
+          <div className="text-center py-10">
+            <div className="text-6xl mb-4">📭</div>
+            <p className="font-bold text-gray-500 text-lg">No quizzes available right now.</p>
+            <p className="text-gray-400 mt-1">Check back soon!</p>
           </div>
         ) : (
-          <div className="space-y-3">
-            {visibleSubjects.map((subject) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {visibleSubjects.map((subject, i) => (
               <button
                 key={subject.id}
                 onClick={() => onSelect(subject)}
-                className="w-full text-left p-4 rounded-lg border-2 border-gray-200 hover:border-indigo-500 hover:bg-indigo-50 transition-all group"
+                className="group relative text-left p-5 rounded-2xl border-2 border-transparent bg-white
+                           hover:shadow-lg hover:scale-[1.03] active:scale-[0.98] transition-all duration-200
+                           animate-slide-up"
+                style={{ animationDelay: `${i * 60}ms`, animationFillMode: 'both' }}
               >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-800 group-hover:text-indigo-600">
+                <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${CARD_COLORS[i % CARD_COLORS.length]} opacity-0 group-hover:opacity-10 transition-opacity`} />
+                <div className="flex items-center gap-4">
+                  <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${CARD_COLORS[i % CARD_COLORS.length]} flex items-center justify-center text-2xl shadow-md group-hover:animate-wiggle`}>
+                    {CARD_EMOJIS[i % CARD_EMOJIS.length]}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg font-bold text-gray-800 group-hover:text-purple-600 transition-colors truncate">
                       {subject.name}
                     </h3>
+                    <p className="text-sm text-gray-400 font-medium">
+                      {Math.floor(subject.duration / 60)} min
+                    </p>
                   </div>
-                  <svg
-                    className="w-5 h-5 text-gray-400 group-hover:text-indigo-600 group-hover:translate-x-1 transition-all"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+                  <div className="text-gray-300 group-hover:text-candy-purple group-hover:translate-x-1 transition-all text-xl font-bold">
+                    →
+                  </div>
                 </div>
               </button>
             ))}
           </div>
         )}
 
-        {/* Admin access button */}
-        <div className="mt-8 pt-4 border-t border-gray-100 flex justify-end">
+        {/* Footer buttons */}
+        <div className="mt-8 pt-4 border-t-2 border-purple-50 flex items-center justify-between">
+          {onHistoryOpen && (
+            <button
+              onClick={onHistoryOpen}
+              className="flex items-center gap-2 text-sm text-purple-400 hover:text-purple-600 transition-colors px-3 py-2 rounded-xl hover:bg-purple-50 font-semibold"
+            >
+              <span className="text-lg">📊</span>
+              My History
+            </button>
+          )}
+          {!onHistoryOpen && <span />}
           <button
             onClick={onAdminOpen}
-            className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-indigo-600 transition-colors px-3 py-1.5 rounded-lg hover:bg-indigo-50"
+            className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-purple-600 transition-colors px-3 py-2 rounded-xl hover:bg-purple-50"
             aria-label="Open admin panel"
           >
-            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
+            <Settings className="w-3.5 h-3.5" />
             Admin
           </button>
         </div>

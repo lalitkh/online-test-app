@@ -5,7 +5,7 @@ import { useTestReducer } from '../hooks/useTestReducer';
 const mockSubject = {
   id: 'test',
   name: 'Test Subject',
-  questionsFile: 'test.json',
+  duration: 600,
 };
 
 const mockQuestionsData = {

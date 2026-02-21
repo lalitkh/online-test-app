@@ -2,7 +2,6 @@ const STORAGE_KEY = 'online-test-app-state';
 
 interface PersistedState {
   subjectId: string;
-  questionsFile: string;
   subjectName: string;
   currentQuestion: number;
   answers: Record<number, number>;
@@ -26,7 +25,6 @@ export function loadTestState(): PersistedState | null {
     // Basic validation
     if (
       typeof parsed.subjectId === 'string' &&
-      typeof parsed.questionsFile === 'string' &&
       typeof parsed.subjectName === 'string' &&
       typeof parsed.currentQuestion === 'number' &&
       typeof parsed.answers === 'object' &&

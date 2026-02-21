@@ -1,14 +1,17 @@
 import { useEffect, useCallback, useRef, lazy, Suspense, useState } from 'react';
-import { subjects } from './data/subjects';
-import { QuestionsData } from './types';
+import { QuestionsData, QuestionRow } from './types';
 import { useTestReducer } from './hooks/useTestReducer';
 import { useTimer } from './hooks/useTimer';
 import { useMathJax } from './hooks/useMathJax';
 import { saveTestState, loadTestState, clearTestState } from './hooks/useLocalStorage';
+import { useSubjects } from './hooks/useSubjects';
+import { useAttemptHistory } from './hooks/useAttemptHistory';
+import { supabase } from './lib/supabase';
 import SubjectSelection from './components/SubjectSelection';
 import LoadingScreen from './components/LoadingScreen';
 import ErrorScreen from './components/ErrorScreen';
 import AdminPanel from './components/AdminPanel';
+import AttemptHistoryPanel from './components/AttemptHistory';
 
 const TestWelcome = lazy(() => import('./components/TestWelcome'));
 const TestPage = lazy(() => import('./components/TestPage'));
@@ -16,10 +19,11 @@ const TestResults = lazy(() => import('./components/TestResults'));
 
 function SuspenseFallback() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
-      <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
-        <div className="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mx-auto mb-4" />
-        <p className="text-gray-700 font-medium">Loading...</p>
+    <div className="bg-fun flex items-center justify-center p-4">
+      <div className="card-fun p-10 text-center max-w-sm w-full">
+        <div className="text-5xl mb-4 animate-bounce-slow">🏆</div>
+        <div className="w-12 h-12 border-4 border-purple-200 border-t-candy-purple rounded-full animate-spin mx-auto mb-4" />
+        <p className="text-gray-700 font-bold">Loading...</p>
       </div>
     </div>
   );
@@ -27,8 +31,12 @@ function SuspenseFallback() {
 
 export default function OnlineTestApp() {
   const [adminOpen, setAdminOpen] = useState(false);
+  const [historyOpen, setHistoryOpen] = useState(false);
   // Incrementing this forces SubjectSelection to re-read visibility from localStorage
   const [visibilityVersion, setVisibilityVersion] = useState(0);
+
+  const { subjects, loading: subjectsLoading, error: subjectsError } = useSubjects();
+  const { attempts, loading: historyLoading, error: historyError, saveAttempt } = useAttemptHistory();
 
   const {
     state,
@@ -71,10 +79,18 @@ export default function OnlineTestApp() {
     questionsDataRef.current = questionsData;
   }, [questionsData]);
 
-  // Restore test state from localStorage on mount
+  // Track the initial timeLeft when test starts for calculating time taken
+  const startTimeLeftRef = useRef(0);
+  useEffect(() => {
+    if (testStarted && !testSubmitted && questionsData) {
+      startTimeLeftRef.current = questionsData.duration;
+    }
+  }, [testStarted, testSubmitted, questionsData]);
+
+  // Restore test state from localStorage on mount (wait for subjects to load)
   const hasRestoredRef = useRef(false);
   useEffect(() => {
-    if (hasRestoredRef.current) return;
+    if (hasRestoredRef.current || subjectsLoading || subjects.length === 0) return;
     hasRestoredRef.current = true;
 
     const saved = loadTestState();
@@ -87,7 +103,7 @@ export default function OnlineTestApp() {
     selectSubject(subject);
     // Store saved state to apply after questions load
     pendingRestoreRef.current = saved;
-  }, [selectSubject]);
+  }, [selectSubject, subjects, subjectsLoading]);
 
   const pendingRestoreRef = useRef<ReturnType<typeof loadTestState>>(null);
 
@@ -110,7 +126,6 @@ export default function OnlineTestApp() {
     if (testStarted && !testSubmitted && selectedSubject) {
       saveTestState({
         subjectId: selectedSubject.id,
-        questionsFile: selectedSubject.questionsFile,
         subjectName: selectedSubject.name,
         currentQuestion,
         answers,
@@ -127,20 +142,67 @@ export default function OnlineTestApp() {
     }
   }, [testSubmitted, selectedSubject]);
 
+  // Save attempt to Supabase when test is submitted
+  const hasSavedAttemptRef = useRef(false);
+  useEffect(() => {
+    if (testSubmitted && selectedSubject && questionsData && !hasSavedAttemptRef.current) {
+      hasSavedAttemptRef.current = true;
+      const totalQuestions = questionsData.questions.length;
+      const percentage = (score / totalQuestions) * 100;
+      const passingScore = questionsData.passingScore ?? 90;
+      const timeTaken = startTimeLeftRef.current - timeLeft;
+
+      saveAttempt({
+        subjectId: selectedSubject.id,
+        subjectName: selectedSubject.name,
+        score,
+        totalQuestions,
+        percentage,
+        passed: percentage >= passingScore,
+        timeTaken: Math.max(0, timeTaken),
+        attemptedAt: new Date().toISOString(),
+      });
+    }
+    if (!testSubmitted) {
+      hasSavedAttemptRef.current = false;
+    }
+  }, [testSubmitted, selectedSubject, questionsData, score, timeLeft, saveAttempt]);
+
   // MathJax typesetting on relevant state changes
   useMathJax([currentQuestion, testStarted, testSubmitted, questionsData]);
 
-  // Load questions when subject is selected
+  // Load questions from Supabase when subject is selected
   useEffect(() => {
     if (!selectedSubject) return;
 
     let cancelled = false;
     const loadQuestions = async () => {
       try {
-        const response = await fetch(selectedSubject.questionsFile);
-        if (!response.ok) throw new Error('Failed to load questions');
-        const data: QuestionsData = await response.json();
-        if (!cancelled) loadSuccess(data);
+        const { data, error: err } = await supabase
+          .from('questions')
+          .select('*')
+          .eq('subject_id', selectedSubject.id)
+          .order('id', { ascending: true });
+
+        if (cancelled) return;
+        if (err) throw new Error(err.message);
+        if (!data || data.length === 0) throw new Error('No questions found for this subject');
+
+        const rows = data as QuestionRow[];
+        const questionsData: QuestionsData = {
+          title: selectedSubject.name,
+          duration: selectedSubject.duration,
+          passingScore: selectedSubject.passingScore,
+          questions: rows.map((r) => ({
+            id: r.id,
+            question: r.question,
+            options: r.options,
+            correctAnswer: r.correct_answer,
+            topic: r.topic ?? undefined,
+          })),
+        };
+
+        loadSuccess(questionsData);
       } catch (err) {
         if (!cancelled) {
           loadError(
@@ -188,6 +250,33 @@ export default function OnlineTestApp() {
     );
   }
 
+  // Attempt history panel
+  if (historyOpen) {
+    return (
+      <AttemptHistoryPanel
+        attempts={attempts}
+        loading={historyLoading}
+        error={historyError}
+        onClose={() => setHistoryOpen(false)}
+      />
+    );
+  }
+
+  // Show loading while subjects are being fetched from Supabase
+  if (subjectsLoading) {
+    return <SuspenseFallback />;
+  }
+
+  // Show error if subjects failed to load
+  if (subjectsError) {
+    return (
+      <ErrorScreen
+        error={subjectsError}
+        onBack={() => window.location.reload()}
+      />
+    );
+  }
+
   // Render the appropriate screen
   if (!selectedSubject) {
     return (
@@ -196,6 +285,7 @@ export default function OnlineTestApp() {
         subjects={subjects}
         onSelect={selectSubject}
         onAdminOpen={() => setAdminOpen(true)}
+        onHistoryOpen={() => setHistoryOpen(true)}
       />
     );
   }
@@ -208,7 +298,6 @@ export default function OnlineTestApp() {
     return (
       <ErrorScreen
         error={error}
-        questionsFile={selectedSubject.questionsFile}
         onBack={backToHome}
       />
     );

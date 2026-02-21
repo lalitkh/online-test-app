@@ -16,8 +16,54 @@ export interface QuestionsData {
 export interface Subject {
   id: string;
   name: string;
-  questionsFile: string;
   isActive?: boolean;
+  displayOrder?: number;
+  duration: number;
+  passingScore?: number;
+}
+
+// Supabase row types
+export interface SubjectRow {
+  id: string;
+  name: string;
+  is_active: boolean;
+  display_order: number;
+  duration: number;
+  passing_score: number;
+}
+
+export interface QuestionRow {
+  id: number;
+  subject_id: string;
+  question: string;
+  options: string[];
+  correct_answer: number;
+  topic: string | null;
+}
+
+// Attempt history types
+export interface AttemptHistory {
+  id?: string;
+  subjectId: string;
+  subjectName: string;
+  score: number;
+  totalQuestions: number;
+  percentage: number;
+  passed: boolean;
+  timeTaken: number;
+  attemptedAt: string;
+}
+
+export interface AttemptHistoryRow {
+  id: string;
+  subject_id: string;
+  subject_name: string;
+  score: number;
+  total_questions: number;
+  percentage: number;
+  passed: boolean;
+  time_taken: number;
+  attempted_at: string;
 }
 
 // Declare MathJax global

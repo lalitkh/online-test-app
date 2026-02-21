@@ -70,26 +70,78 @@ vercel --prod
 
 > A `vercel.json` is included in the repo to handle SPA client-side routing rewrites.
 
-## Adding Your Questions
+## Supabase Setup (one-time)
 
-Add a JSON file to the `public/` folder with your own questions:
-```json
-{
-  "title": "Your Quiz Title",
-  "duration": 600,
-  "questions": [
-    {
-      "topic": "science",
-      "id": 1,
-      "question": "Your question?",
-      "options": ["Option A", "Option B", "Option C", "Option D"],
-      "correctAnswer": 0
-    }
-  ]
-}
+Quiz data is stored in [Supabase](https://supabase.com) (free tier).
+
+### 1. Create a Supabase project
+
+Go to https://supabase.com, create a new project, and run the following SQL in the **SQL Editor**:
+
+```sql
+-- Subjects table
+CREATE TABLE subjects (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  is_active BOOLEAN NOT NULL DEFAULT true,
+  display_order INTEGER NOT NULL DEFAULT 0,
+  duration INTEGER NOT NULL DEFAULT 1800,
+  passing_score INTEGER NOT NULL DEFAULT 90
+);
+
+-- Questions table
+CREATE TABLE questions (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  subject_id TEXT NOT NULL REFERENCES subjects(id) ON DELETE CASCADE,
+  question TEXT NOT NULL,
+  options JSONB NOT NULL,
+  correct_answer INTEGER NOT NULL,
+  topic TEXT
+);
+
+-- Allow public read access
+ALTER TABLE subjects ENABLE ROW LEVEL SECURITY;
+ALTER TABLE questions ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Public read subjects" ON subjects FOR SELECT USING (true);
+CREATE POLICY "Public read questions" ON questions FOR SELECT USING (true);
 ```
 
-Then register it in the `subjects` array inside `src/App.tsx`.
+### 2. Configure environment variables
+
+Copy `.env.example` to `.env` and fill in your Supabase project URL and anon key (found in **Settings → API**):
+
+```bash
+cp .env.example .env
+```
+
+Also add these as environment variables in your Vercel project settings.
+
+### 3. Seed existing quiz data
+
+```bash
+npm install -D tsx dotenv
+npx tsx scripts/seed-supabase.ts
+```
+
+## Adding a New Quiz (no code changes needed)
+
+1. Open the **Supabase dashboard** → `subjects` table → **Insert row**:
+   - `id`: a unique slug, e.g. `my_new_quiz`
+   - `name`: display name, e.g. `My New Quiz`
+   - `duration`: time in seconds, e.g. `1800` for 30 minutes
+   - `passing_score`: percentage, e.g. `90`
+   - `display_order`: controls sort order
+   - `is_active`: `true` to show, `false` to hide
+
+2. Go to the `questions` table → **Insert rows** for each question:
+   - `subject_id`: must match the subject `id` above
+   - `question`: the question text (supports HTML and LaTeX with `$$...$$`)
+   - `options`: a JSON array, e.g. `["Option A", "Option B", "Option C", "Option D"]`
+   - `correct_answer`: 0-based index of the correct option
+   - `topic`: optional category label
+
+3. **Done!** The app fetches data live from Supabase — no deploy needed.
 
 ## Technologies Used
 
@@ -99,3 +151,4 @@ Then register it in the `subjects` array inside `src/App.tsx`.
 - Tailwind CSS
 - Lucide React (icons)
 - MathJax 3
+- Supabase (backend)

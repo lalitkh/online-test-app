@@ -13,6 +13,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.97.0",
     "dompurify": "^3.3.1",
     "lucide-react": "^0.263.1",
     "react": "^18.3.1",
@@ -29,6 +30,8 @@
     "@typescript-eslint/parser": "^8.56.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.17",
+    "baseline-browser-mapping": "^2.10.0",
+    "dotenv": "^17.3.1",
     "eslint": "^9.39.3",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.0.1",
@@ -37,6 +40,7 @@
     "postcss": "^8.4.35",
     "prettier": "^3.8.1",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.5.3",
     "vite": "^7.1.10",
     "vitest": "^4.0.18"
