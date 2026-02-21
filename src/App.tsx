@@ -36,7 +36,15 @@ export default function OnlineTestApp() {
   const [visibilityVersion, setVisibilityVersion] = useState(0);
 
   const { subjects, loading: subjectsLoading, error: subjectsError } = useSubjects();
-  const { attempts, loading: historyLoading, error: historyError, saveAttempt } = useAttemptHistory();
+  const {
+    loading: historyLoading,
+    error: historyError,
+    saveAttempt,
+    deleteAttempt,
+    deleteSubjectAttempts,
+    subjectStats,
+    globalStats,
+  } = useAttemptHistory();
 
   const {
     state,
@@ -254,9 +262,12 @@ export default function OnlineTestApp() {
   if (historyOpen) {
     return (
       <AttemptHistoryPanel
-        attempts={attempts}
         loading={historyLoading}
         error={historyError}
+        subjectStats={subjectStats}
+        globalStats={globalStats}
+        onDeleteAttempt={deleteAttempt}
+        onDeleteSubjectAttempts={deleteSubjectAttempts}
         onClose={() => setHistoryOpen(false)}
       />
     );

@@ -84,7 +84,7 @@ export default function SubjectSelection({ subjects, onSelect, onAdminOpen, onHi
               className="flex items-center gap-2 text-sm text-purple-400 hover:text-purple-600 transition-colors px-3 py-2 rounded-xl hover:bg-purple-50 font-semibold"
             >
               <span className="text-lg">📊</span>
-              My History
+              Dashboard
             </button>
           )}
           {!onHistoryOpen && <span />}
