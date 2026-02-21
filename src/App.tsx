@@ -1,4 +1,4 @@
-import { useEffect, useCallback, useRef, lazy, Suspense } from 'react';
+import { useEffect, useCallback, useRef, lazy, Suspense, useState } from 'react';
 import { subjects } from './data/subjects';
 import { QuestionsData } from './types';
 import { useTestReducer } from './hooks/useTestReducer';
@@ -8,6 +8,7 @@ import { saveTestState, loadTestState, clearTestState } from './hooks/useLocalSt
 import SubjectSelection from './components/SubjectSelection';
 import LoadingScreen from './components/LoadingScreen';
 import ErrorScreen from './components/ErrorScreen';
+import AdminPanel from './components/AdminPanel';
 
 const TestWelcome = lazy(() => import('./components/TestWelcome'));
 const TestPage = lazy(() => import('./components/TestPage'));
@@ -25,6 +26,10 @@ function SuspenseFallback() {
 }
 
 export default function OnlineTestApp() {
+  const [adminOpen, setAdminOpen] = useState(false);
+  // Incrementing this forces SubjectSelection to re-read visibility from localStorage
+  const [visibilityVersion, setVisibilityVersion] = useState(0);
+
   const {
     state,
     selectSubject,
@@ -172,9 +177,27 @@ export default function OnlineTestApp() {
     onTimeUp: handleSubmit,
   });
 
+  // Admin panel
+  if (adminOpen) {
+    return (
+      <AdminPanel
+        subjects={subjects}
+        onClose={() => setAdminOpen(false)}
+        onVisibilityChange={() => setVisibilityVersion((v) => v + 1)}
+      />
+    );
+  }
+
   // Render the appropriate screen
   if (!selectedSubject) {
-    return <SubjectSelection subjects={subjects} onSelect={selectSubject} />;
+    return (
+      <SubjectSelection
+        key={visibilityVersion}
+        subjects={subjects}
+        onSelect={selectSubject}
+        onAdminOpen={() => setAdminOpen(true)}
+      />
+    );
   }
 
   if (loading) {
