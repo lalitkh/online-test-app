@@ -35,7 +35,7 @@ export default function OnlineTestApp() {
   // Incrementing this forces SubjectSelection to re-read visibility from localStorage
   const [visibilityVersion, setVisibilityVersion] = useState(0);
 
-  const { subjects, loading: subjectsLoading, error: subjectsError } = useSubjects();
+  const { subjects, loading: subjectsLoading, error: subjectsError, refetch: refetchSubjects } = useSubjects();
   const {
     loading: historyLoading,
     error: historyError,
@@ -253,7 +253,7 @@ export default function OnlineTestApp() {
       <AdminPanel
         subjects={subjects}
         onClose={() => setAdminOpen(false)}
-        onVisibilityChange={() => setVisibilityVersion((v) => v + 1)}
+        onVisibilityChange={() => { setVisibilityVersion((v) => v + 1); refetchSubjects(); }}
       />
     );
   }

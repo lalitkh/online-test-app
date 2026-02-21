@@ -17,6 +17,7 @@ export function useSubjects() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [fetchKey, setFetchKey] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
@@ -44,7 +45,9 @@ export function useSubjects() {
 
     fetchSubjects();
     return () => { cancelled = true; };
-  }, []);
+  }, [fetchKey]);
 
-  return { subjects, loading, error };
+  const refetch = () => setFetchKey((k) => k + 1);
+
+  return { subjects, loading, error, refetch };
 }
